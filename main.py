@@ -77,6 +77,7 @@ def main():
     while True:
         logger.debug('Awaiting for new imput')
         PythonGranadaBot.echo()
+        tools.update_progress(1.0/3, 1.0)
         time.sleep(3)
 
 

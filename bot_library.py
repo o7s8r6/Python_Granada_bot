@@ -399,6 +399,7 @@ class BotCommands(object):
         simulations, err = initiate_sim.communicate()
 
 
+        if err == "":
 
             image1 = open('/home/pablogal/Code/HADES-master/results/Polarization_map.png', 'rb')
             image2 = open('/home/pablogal/Code/HADES-master/results/Polarization_contours.png.png', 'rb')

@@ -200,7 +200,8 @@ class BotCommands(object):
                               '/talk': self.submit_talk,
                               '/peval': self.python_eval,
                               '/log': self.get_log,
-                              '/cluster': self.get_cluster_status}
+                              '/cluster': self.get_cluster_status,
+                              '/sim': self.run_sim}
     @staticmethod
     def start(bot,chat_id,args,phase,cache):
 
@@ -385,6 +386,33 @@ class BotCommands(object):
 			bot.sendMessage(chat_id=chat_id,text=line) # replace is for propper formating of the lines
 
         return 'Ended',[]
+
+
+    @staticmethod
+    def run_sim(bot,chat_id,args,phase,cache):
+
+        initiate_sim =subprocess.Popen('python /home/pablogal/Code/HADES-master/HADES.py ./data.dat -v  '
+                                       '--keys=YOSUKE_KEYS -images ',
+                             stdout=subprocess.PIPE,stderr=subprocess.PIPE,shell=True)
+
+        simulations, err = initiate_sim.communicate()
+
+        if err == None:
+
+            image1 = open('/home/pablogal/Code/HADES-master/results/Polarization_map.png', 'rb')
+            image2 = open('/home/pablogal/Code/HADES-master/results/Polarization_contours.png.png', 'rb')
+
+            bot.sendPhoto(chat_id=chat_id,photo=image1)
+            bot.sendPhoto(chat_id=chat_id,photo=image2)
+
+        else:
+
+            bot.sendMessage(chat_id=chat_id,text='Error: '+err)
+
+        return 'Ended',[]
+
+
+
 
 
 

@@ -1,0 +1,114 @@
+2015-08-23 16:19:00,599 - 12934778/start1 - INFO - Conversation marked as command.
+2015-08-23 16:19:00,599 - 12934778/start47 - INFO - Conversation marked as command.
+2015-08-23 16:19:00,599 - 12934778Holas78 - INFO - Conversation marked as chat.
+2015-08-23 16:19:00,601 - 12934778/start1 - INFO - Received: /start.
+2015-08-23 16:19:00,601 - 12934778/start47 - INFO - Received: /start.
+2015-08-23 16:19:00,601 - 12934778Holas78 - INFO - Received: Holas.
+2015-08-23 16:19:01,336 - 12934778Holas78 - INFO - Answering: Holas quien sos? Sos la novia?.
+2015-08-23 16:19:41,693 - 12934778/startID:73 - INFO - Conversation marked as command.
+2015-08-23 16:19:41,693 - 12934778/startID:95 - INFO - Conversation marked as command.
+2015-08-23 16:19:41,693 - 12934778HolasID:89 - INFO - Conversation marked as chat.
+2015-08-23 16:19:41,694 - 12934778/startID:73 - INFO - Received: /start.
+2015-08-23 16:19:41,694 - 12934778/startID:95 - INFO - Received: /start.
+2015-08-23 16:19:41,697 - 12934778HolasID:89 - INFO - Received: Holas.
+2015-08-23 16:19:43,420 - 12934778HolasID:89 - INFO - Answering: Holas mi amor..
+2015-08-23 19:05:32,029 - 3e598ed5d6b64c2283f0ab7f8e9c857e - INFO - Conversation marked as chat.
+2015-08-23 19:05:32,029 - 3e598ed5d6b64c2283f0ab7f8e9c857e - INFO - Received: Hola.
+2015-08-23 19:05:36,687 - 3e598ed5d6b64c2283f0ab7f8e9c857e - INFO - Answering: Hola. Que tal?.
+2015-08-23 19:05:46,700 - dad9cee27ca4466db0c1482924557311 - INFO - Conversation marked as chat.
+2015-08-23 19:05:46,701 - dad9cee27ca4466db0c1482924557311 - INFO - Received: Hola?.
+2015-08-23 19:05:50,236 - dad9cee27ca4466db0c1482924557311 - INFO - Answering: Cuantos a&ntilde;os tienes?.
+2015-08-23 19:06:13,092 - 1de8bbc76386477d9d9447e19e4f55a3 - INFO - Conversation marked as command.
+2015-08-23 19:06:13,092 - 1de8bbc76386477d9d9447e19e4f55a3 - INFO - Received: /start.
+2015-08-23 19:06:19,891 - a23e0038b04d40cd8db4f4bc37effec0 - INFO - Conversation marked as command.
+2015-08-23 19:06:19,894 - a23e0038b04d40cd8db4f4bc37effec0 - INFO - Received: /peval 5+5.
+2015-08-23 19:08:17,418 - 711303ff30054d969dc1ada581584b5f - INFO - Conversation marked as command.
+2015-08-23 19:08:17,420 - 711303ff30054d969dc1ada581584b5f - INFO - Received: /talk.
+2015-08-23 19:08:17,642 - 711303ff30054d969dc1ada581584b5f - INFO - Talk status code recieved: Next_phase.
+2015-08-23 19:08:27,434 - 711303ff30054d969dc1ada581584b5f - INFO - Received: bcg.
+2015-08-23 19:08:27,661 - 711303ff30054d969dc1ada581584b5f - INFO - Talk status code recieved: Same_phase.
+2015-08-23 19:08:40,667 - 711303ff30054d969dc1ada581584b5f - INFO - Received: No.
+2015-08-23 19:08:41,117 - 711303ff30054d969dc1ada581584b5f - INFO - Talk status code recieved: Ended.
+2015-08-23 19:09:29,585 - ce7ebfc796dd4f718931f883252c4892 - INFO - Conversation marked as command.
+2015-08-23 19:09:29,585 - 723846404d504f19b50e6becc39540c9 - INFO - Conversation marked as command.
+2015-08-23 19:09:29,586 - 928f92d4057749cc9917d3f308fa65ac - INFO - Conversation marked as chat.
+2015-08-23 19:09:29,588 - b80812397c1b4b10af6c5aefe57f9420 - INFO - Conversation marked as command.
+2015-08-23 19:09:29,588 - e9c1daf55a0b46a1ae44524a2936be75 - INFO - Conversation marked as chat.
+2015-08-23 19:09:29,592 - ce7ebfc796dd4f718931f883252c4892 - INFO - Received: /start.
+2015-08-23 19:09:29,592 - 723846404d504f19b50e6becc39540c9 - INFO - Received: /start.
+2015-08-23 19:09:29,596 - 928f92d4057749cc9917d3f308fa65ac - INFO - Received: Hola.
+2015-08-23 19:09:29,598 - b80812397c1b4b10af6c5aefe57f9420 - INFO - Received: /start.
+2015-08-23 19:09:29,601 - e9c1daf55a0b46a1ae44524a2936be75 - INFO - Received: Holosa.
+2015-08-23 19:09:29,815 - 723846404d504f19b50e6becc39540c9 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:09:29,834 - b80812397c1b4b10af6c5aefe57f9420 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:09:29,838 - ce7ebfc796dd4f718931f883252c4892 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:09:30,013 - e9c1daf55a0b46a1ae44524a2936be75 - INFO - Answering: Estas bien viejo..
+2015-08-23 19:09:31,778 - 928f92d4057749cc9917d3f308fa65ac - INFO - Answering: Como te llamas?.
+2015-08-23 19:09:46,414 - 9a725b5d72f047d3b9fc81cf4b67bf97 - INFO - Conversation marked as chat.
+2015-08-23 19:09:46,415 - 9a725b5d72f047d3b9fc81cf4b67bf97 - INFO - Received: /log.
+2015-08-23 19:09:47,302 - 9a725b5d72f047d3b9fc81cf4b67bf97 - INFO - Answering: Eres hombre o mujer?.
+2015-08-23 19:10:03,686 - b2f75005b1a04c5eb134a18adf9d2c9b - INFO - Conversation marked as command.
+2015-08-23 19:10:03,687 - b2f75005b1a04c5eb134a18adf9d2c9b - INFO - Received: /start.
+2015-08-23 19:10:03,911 - b2f75005b1a04c5eb134a18adf9d2c9b - INFO - Talk status code recieved: Ended.
+2015-08-23 19:15:56,989 - 9a7a4671c3c240a8a1d1820958b0c9cd - INFO - Conversation marked as chat.
+2015-08-23 19:15:56,990 - 9a7a4671c3c240a8a1d1820958b0c9cd - INFO - Received: /log.
+2015-08-23 19:15:58,038 - 9a7a4671c3c240a8a1d1820958b0c9cd - INFO - Answering: Log..
+2015-08-23 19:16:28,444 - 8f43264d35f343c0ad37355ec008c56f - INFO - Conversation marked as command.
+2015-08-23 19:16:28,444 - 8f43264d35f343c0ad37355ec008c56f - INFO - Received: /log.
+2015-08-23 19:16:29,115 - 8f43264d35f343c0ad37355ec008c56f - INFO - Talk status code recieved: Ended.
+2015-08-23 19:16:42,091 - e7bdfa84d0a549a084e68114d6b1da32 - INFO - Conversation marked as command.
+2015-08-23 19:16:42,092 - e7bdfa84d0a549a084e68114d6b1da32 - INFO - Received: /log 1.
+2015-08-23 19:16:42,756 - e7bdfa84d0a549a084e68114d6b1da32 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:16:52,556 - c677b1d8c81c4204a3cc6c6856269021 - INFO - Conversation marked as command.
+2015-08-23 19:16:52,558 - c677b1d8c81c4204a3cc6c6856269021 - INFO - Received: /log 53.3.
+2015-08-23 19:16:52,779 - c677b1d8c81c4204a3cc6c6856269021 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:17:13,825 - d0050f4686c3455290a9986b88503c34 - INFO - Conversation marked as command.
+2015-08-23 19:17:13,826 - d0050f4686c3455290a9986b88503c34 - INFO - Received: /log 1.
+2015-08-23 19:17:13,826 - d0050f4686c3455290a9986b88503c34 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:17:20,411 - f469e4c4c9594bab804f5b2ab1949a88 - INFO - Conversation marked as command.
+2015-08-23 19:17:20,413 - f469e4c4c9594bab804f5b2ab1949a88 - INFO - Received: /log 2.
+2015-08-23 19:17:20,621 - f469e4c4c9594bab804f5b2ab1949a88 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:17:40,068 - 3fa68c16f34a4e6eab34116672f30569 - INFO - Conversation marked as command.
+2015-08-23 19:17:40,068 - 3fa68c16f34a4e6eab34116672f30569 - INFO - Received: /log 1.
+2015-08-23 19:17:40,290 - 3fa68c16f34a4e6eab34116672f30569 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:17:43,671 - 1a52f336633d41bdb704054f6c4462ac - INFO - Conversation marked as command.
+2015-08-23 19:17:43,671 - 1a52f336633d41bdb704054f6c4462ac - INFO - Received: /log t.
+2015-08-23 19:17:43,894 - 1a52f336633d41bdb704054f6c4462ac - INFO - Talk status code recieved: Ended.
+2015-08-23 19:17:59,322 - 73a50d80a0eb4199a2f5ade2f74be44b - INFO - Conversation marked as command.
+2015-08-23 19:17:59,322 - 73a50d80a0eb4199a2f5ade2f74be44b - INFO - Received: /log g.
+2015-08-23 19:18:15,447 - ce2ccd0d2ded4291a64475d9ea434748 - INFO - Conversation marked as command.
+2015-08-23 19:18:15,447 - 7d53f348c1ba41a58748800bfb31a117 - INFO - Conversation marked as command.
+2015-08-23 19:18:15,447 - ce2ccd0d2ded4291a64475d9ea434748 - INFO - Received: /log p.
+2015-08-23 19:18:15,447 - 7d53f348c1ba41a58748800bfb31a117 - INFO - Received: /log 5.
+2015-08-23 19:18:15,698 - ce2ccd0d2ded4291a64475d9ea434748 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:18:16,549 - 7d53f348c1ba41a58748800bfb31a117 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:18:35,936 - da63b23b5b6d410db07699d03aba2b5b - INFO - Conversation marked as command.
+2015-08-23 19:18:35,936 - da63b23b5b6d410db07699d03aba2b5b - INFO - Received: /log 10.
+2015-08-23 19:18:38,193 - da63b23b5b6d410db07699d03aba2b5b - INFO - Talk status code recieved: Ended.
+2015-08-23 19:21:47,059 - 30bdf025d9ec46d38066eb5bede34070 - INFO - Conversation marked as command.
+2015-08-23 19:21:47,061 - 30bdf025d9ec46d38066eb5bede34070 - INFO - Received: /start.
+2015-08-23 19:21:47,295 - 30bdf025d9ec46d38066eb5bede34070 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:24:05,931 - 0fee9f0a9530426a87bf8a4536d7d4f4 - INFO - Conversation marked as command.
+2015-08-23 19:24:05,933 - 0fee9f0a9530426a87bf8a4536d7d4f4 - INFO - Received: /start.
+2015-08-23 19:24:06,153 - 0fee9f0a9530426a87bf8a4536d7d4f4 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:24:54,313 - 6c3ce879a48e4a2b8a79fdabe572b154 - INFO - Conversation marked as command.
+2015-08-23 19:24:54,315 - 6c3ce879a48e4a2b8a79fdabe572b154 - INFO - Received: /log 79.
+2015-08-23 19:25:12,168 - 6c3ce879a48e4a2b8a79fdabe572b154 - INFO - Talk status code recieved: Ended.
+2015-08-23 19:32:20,855 - fee02659a60c46b2b20e314039889499 - INFO - Conversation marked as chat.
+2015-08-23 19:32:20,855 - fee02659a60c46b2b20e314039889499 - INFO - Received: Hola.
+2015-08-23 19:32:21,812 - fee02659a60c46b2b20e314039889499 - INFO - Answering: Que tal?.
+2015-08-23 19:39:39,112 - 52fa5643b3e645d4abe57e34605da0de - INFO - Conversation marked as chat.
+2015-08-23 19:39:39,114 - 52fa5643b3e645d4abe57e34605da0de - INFO - Received: Hola Talos.
+2015-08-23 19:39:44,755 - 52fa5643b3e645d4abe57e34605da0de - INFO - Answering: &iquest;Y esa qui&eacute;n es ahora?.
+2015-08-23 19:39:57,977 - 0b96b86eb49945d99397217b0dfdc3d9 - INFO - Conversation marked as chat.
+2015-08-23 19:39:57,977 - 0b96b86eb49945d99397217b0dfdc3d9 - INFO - Received: Tu.
+2015-08-23 19:40:01,926 - 0b96b86eb49945d99397217b0dfdc3d9 - INFO - Answering: Yo soy Jose Mourinho..
+2015-08-23 19:40:11,927 - 887daf2b7be04cf5a3777ddf8d029067 - INFO - Conversation marked as chat.
+2015-08-23 19:40:11,927 - 887daf2b7be04cf5a3777ddf8d029067 - INFO - Received: Joder.
+2015-08-23 19:40:16,548 - 887daf2b7be04cf5a3777ddf8d029067 - INFO - Answering: Madero..
+2015-08-23 19:40:20,150 - e5ae328b532348279c775bfd1a7f8d71 - INFO - Conversation marked as chat.
+2015-08-23 19:40:20,150 - e5ae328b532348279c775bfd1a7f8d71 - INFO - Received: Eres una zorra.
+2015-08-23 19:40:27,473 - e5ae328b532348279c775bfd1a7f8d71 - INFO - Answering: No se..
+2015-08-23 19:40:31,079 - fd89b241b8194e92b470b6e770f8038a - INFO - Conversation marked as chat.
+2015-08-23 19:40:31,079 - fd89b241b8194e92b470b6e770f8038a - INFO - Received: Quieres ir a zorrear.
+2015-08-23 19:40:36,411 - fd89b241b8194e92b470b6e770f8038a - INFO - Answering: No gracias ya fui ayer..

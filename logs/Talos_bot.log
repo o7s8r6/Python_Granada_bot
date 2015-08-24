@@ -1,0 +1,796 @@
+2015-08-23 16:18:50,035 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:00,201 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:00,598 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 16:19:00,598 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 2.
+2015-08-23 16:19:00,598 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 3.
+2015-08-23 16:19:00,598 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 16:19:00,598 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 16:19:00,598 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 16:19:00,601 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 16:19:00,601 - Python_granada_bot.bot_library.MasterBot - INFO - There are 2 active conversations
+2015-08-23 16:19:00,601 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 16:19:00,601 - Python_granada_bot.bot_library.MasterBot - INFO - There are 3 active conversations
+2015-08-23 16:19:00,601 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 16:19:00,601 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 16:19:00,828 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 16:19:00,828 - Python_granada_bot.bot_library.MasterBot - INFO - There are 2 active conversations
+2015-08-23 16:19:00,835 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 16:19:00,835 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 16:19:01,545 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 16:19:01,545 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 16:19:04,548 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:07,750 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:10,944 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:41,309 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:41,690 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 16:19:41,690 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 2.
+2015-08-23 16:19:41,691 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 3.
+2015-08-23 16:19:41,691 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 16:19:41,691 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 16:19:41,691 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 16:19:41,693 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 16:19:41,694 - Python_granada_bot.bot_library.MasterBot - INFO - There are 3 active conversations
+2015-08-23 16:19:41,694 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 16:19:41,694 - Python_granada_bot.bot_library.MasterBot - INFO - There are 2 active conversations
+2015-08-23 16:19:41,694 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 16:19:41,694 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 16:19:41,904 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 16:19:41,904 - Python_granada_bot.bot_library.MasterBot - INFO - There are 2 active conversations
+2015-08-23 16:19:41,921 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 16:19:41,921 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 16:19:43,650 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 16:19:43,651 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 16:19:46,651 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:49,855 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:53,049 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:56,237 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:19:59,426 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 16:20:02,628 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 18:37:02,069 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 18:37:05,259 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 18:37:08,450 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 18:39:16,293 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 18:39:19,483 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 18:39:22,674 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 18:39:23,079 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 18:39:23,081 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:05:31,648 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:05:32,026 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:05:32,028 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:05:32,029 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:05:32,029 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:05:36,920 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:05:36,920 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:05:39,921 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:05:43,128 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:05:46,318 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:05:46,698 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:05:46,700 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:05:46,700 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:05:46,700 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:05:50,480 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:05:50,480 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:05:53,480 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:05:56,684 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:05:59,888 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:03,082 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:06,286 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:09,476 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:12,680 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:13,091 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:06:13,091 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:06:13,092 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:06:13,092 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:06:13,319 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:06:13,319 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:06:16,319 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:19,510 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:19,891 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:06:19,891 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:06:19,892 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:06:19,894 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:06:20,111 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:06:20,111 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:06:23,114 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:26,305 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:29,494 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:32,698 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:35,888 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:39,092 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:42,298 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:45,490 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:48,693 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:51,895 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:55,099 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:06:58,292 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:07:01,496 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:07:04,686 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:07:07,888 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:07:11,091 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:07:14,293 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:07:17,496 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:13,808 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:17,012 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:17,417 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:08:17,417 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:08:17,418 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:08:17,420 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:08:20,644 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:23,848 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:27,038 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:27,431 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:08:27,431 - Python_granada_bot.bot_library.MasterBot - INFO - The message is part of an old conversation
+2015-08-23 19:08:27,433 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:08:30,661 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:33,865 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:37,069 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:40,273 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:40,665 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:08:40,665 - Python_granada_bot.bot_library.MasterBot - INFO - The message is part of an old conversation
+2015-08-23 19:08:40,665 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:08:41,117 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:08:41,118 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:08:44,119 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:47,312 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:50,503 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:53,706 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:08:56,897 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:00,086 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:03,290 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:06,493 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:09,697 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:12,888 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:16,091 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:29,200 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:29,581 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:09:29,582 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 2.
+2015-08-23 19:09:29,582 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:09:29,582 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 3.
+2015-08-23 19:09:29,582 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:09:29,584 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 4.
+2015-08-23 19:09:29,584 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 5.
+2015-08-23 19:09:29,584 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:09:29,585 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:09:29,585 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:09:29,585 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:09:29,586 - Python_granada_bot.bot_library.MasterBot - INFO - There are 2 active conversations
+2015-08-23 19:09:29,588 - Python_granada_bot.bot_library.MasterBot - INFO - There are 3 active conversations
+2015-08-23 19:09:29,588 - Python_granada_bot.bot_library.MasterBot - INFO - There are 4 active conversations
+2015-08-23 19:09:29,588 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:09:29,589 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:09:29,589 - Python_granada_bot.bot_library.MasterBot - INFO - There are 5 active conversations
+2015-08-23 19:09:29,591 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:09:29,591 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:09:29,595 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:09:29,816 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:09:29,816 - Python_granada_bot.bot_library.MasterBot - INFO - There are 4 active conversations
+2015-08-23 19:09:29,835 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:09:29,835 - Python_granada_bot.bot_library.MasterBot - INFO - There are 3 active conversations
+2015-08-23 19:09:29,838 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:09:29,841 - Python_granada_bot.bot_library.MasterBot - INFO - There are 2 active conversations
+2015-08-23 19:09:30,226 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:09:30,226 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:09:31,990 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:09:31,992 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:09:33,226 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:36,433 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:39,624 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:42,815 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:46,022 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:46,414 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:09:46,414 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:09:46,414 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:09:46,415 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:09:47,529 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:09:47,529 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:09:50,529 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:53,720 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:09:56,910 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:10:00,099 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:10:03,292 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:10:03,684 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:10:03,686 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:10:03,686 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:10:03,686 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:10:03,911 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:10:03,913 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:10:06,913 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:10:10,105 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:10:13,296 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:10:16,503 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:10:19,694 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:15:49,765 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:15:50,155 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:15:50,155 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 2.
+2015-08-23 19:15:50,155 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:15:50,157 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:15:50,157 - Python_granada_bot.bot_library.MasterBot - INFO - There are 2 active conversations
+2015-08-23 19:15:50,157 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:15:50,157 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:15:50,157 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:15:50,394 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:15:50,394 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:15:53,394 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:15:56,596 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:15:56,987 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:15:56,989 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:15:56,990 - Python_granada_bot.bot_library.MasterBot - INFO - There are 2 active conversations
+2015-08-23 19:15:56,990 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:15:58,269 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:15:58,270 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:16:28,049 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:16:28,441 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:16:28,443 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:16:28,444 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:16:28,444 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:16:29,115 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:16:29,115 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:16:32,115 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:16:35,305 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:16:38,507 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:16:41,710 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:16:42,091 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:16:42,091 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:16:42,092 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:16:42,092 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:16:42,756 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:16:42,756 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:16:45,757 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:16:48,948 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:16:52,151 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:16:52,556 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:16:52,556 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:16:52,558 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:16:52,558 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:16:52,779 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:16:52,779 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:16:55,780 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:07,040 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:10,230 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:13,420 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:13,825 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:17:13,825 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:17:13,825 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:17:13,826 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:17:13,828 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:17:13,828 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:17:16,828 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:20,017 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:20,411 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:17:20,411 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:17:20,413 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:17:20,413 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:17:20,622 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:17:20,622 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:17:23,624 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:26,813 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:30,017 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:33,223 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:36,457 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:39,660 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:40,066 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:17:40,066 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:17:40,068 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:17:40,068 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:17:40,290 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:17:40,292 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:17:43,292 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:43,670 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:17:43,670 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:17:43,671 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:17:43,671 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:17:43,895 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:17:43,895 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:17:46,897 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:50,099 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:53,305 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:55,736 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:58,927 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:17:59,321 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:17:59,322 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:17:59,322 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:17:59,322 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:18:02,325 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:08,671 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:11,862 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:15,065 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:15,444 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:18:15,444 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 2.
+2015-08-23 19:18:15,446 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:18:15,446 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:18:15,447 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:18:15,447 - Python_granada_bot.bot_library.MasterBot - INFO - There are 2 active conversations
+2015-08-23 19:18:15,447 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:18:15,447 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:18:15,698 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:18:15,698 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:18:16,549 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:18:16,549 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:18:19,551 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:22,742 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:25,933 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:29,135 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:32,338 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:35,529 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:35,934 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:18:35,934 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:18:35,936 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:18:35,936 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:18:38,194 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:18:38,194 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:18:41,194 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:44,397 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:47,601 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:50,789 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:53,992 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:18:57,196 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:00,400 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:03,591 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:06,795 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:09,999 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:13,203 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:16,392 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:19,585 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:22,788 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:25,992 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:29,194 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:32,384 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:35,588 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:38,780 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:41,983 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:45,186 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:48,388 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:51,578 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:54,769 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:19:57,960 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:01,150 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:04,352 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:07,546 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:10,749 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:13,951 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:17,141 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:20,331 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:23,533 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:26,723 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:29,927 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:33,131 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:36,332 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:39,522 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:42,710 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:45,900 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:49,102 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:52,292 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:55,493 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:20:58,684 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:01,874 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:05,078 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:08,279 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:11,469 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:14,673 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:17,862 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:21,055 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:24,246 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:27,434 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:30,635 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:33,838 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:37,042 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:40,244 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:43,447 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:46,651 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:47,059 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:21:47,059 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:21:47,061 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:21:47,061 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:21:47,295 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:21:47,295 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:21:50,295 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:53,483 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:56,686 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:21:57,078 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:21:57,079 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:21:57,079 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:21:57,079 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:22:17,042 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:22:17,042 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:22:20,042 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:23,233 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:26,424 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:29,615 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:32,805 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:35,996 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:39,187 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:42,377 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:45,569 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:48,773 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:51,984 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:55,176 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:22:58,367 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:01,572 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:04,776 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:07,979 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:11,181 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:14,384 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:17,575 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:20,765 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:23,953 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:27,144 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:30,334 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:33,523 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:36,727 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:39,933 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:43,122 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:46,325 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:49,529 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:52,734 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:55,938 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:23:59,144 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:02,345 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:05,551 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:05,930 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:24:05,931 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:24:05,933 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:24:05,933 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:24:06,153 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:24:06,153 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:24:09,154 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:12,342 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:15,530 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:18,720 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:21,913 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:25,104 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:28,308 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:31,496 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:34,700 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:37,903 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:41,094 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:44,296 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:47,502 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:50,703 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:53,908 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:24:54,312 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:24:54,313 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:24:54,315 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:24:54,315 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:25:12,168 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:25:12,170 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:25:15,171 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:18,372 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:21,575 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:24,779 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:27,970 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:31,161 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:34,362 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:37,555 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:40,759 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:43,963 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:47,167 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:50,358 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:53,630 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:25:56,832 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:00,036 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:03,239 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:06,444 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:09,648 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:12,851 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:16,042 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:19,234 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:22,437 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:25,641 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:28,845 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:32,049 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:35,240 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:38,430 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:41,619 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:44,813 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:48,005 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:51,197 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:54,400 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:26:57,589 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:00,783 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:03,990 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:07,193 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:10,395 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:13,585 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:16,776 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:19,979 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:23,183 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:26,371 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:29,563 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:32,755 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:35,948 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:39,141 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:42,335 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:45,523 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:48,713 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:51,917 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:55,121 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:27:58,309 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:01,499 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:04,687 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:07,892 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:11,095 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:14,296 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:17,500 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:20,704 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:23,895 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:27,086 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:30,290 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:33,494 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:36,684 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:39,878 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:43,082 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:46,286 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:49,486 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:52,677 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:55,868 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:28:59,071 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:02,275 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:05,476 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:08,667 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:11,858 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:15,049 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:18,240 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:21,428 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:24,618 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:27,809 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:31,013 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:34,216 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:37,420 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:40,624 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:43,813 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:47,003 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:50,193 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:53,384 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:56,585 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:29:59,789 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:02,994 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:06,197 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:09,387 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:12,578 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:15,769 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:18,974 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:22,177 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:25,368 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:28,559 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:31,752 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:34,941 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:38,144 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:41,345 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:44,549 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:47,740 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:50,930 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:54,131 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:30:57,338 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:00,539 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:03,730 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:06,921 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:10,111 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:13,302 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:16,506 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:19,711 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:22,915 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:26,119 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:29,312 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:32,502 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:35,691 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:38,895 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:42,098 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:45,302 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:48,506 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:51,709 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:54,898 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:31:58,102 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:01,292 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:04,483 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:07,674 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:10,878 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:14,081 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:17,285 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:20,474 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:20,854 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:32:20,855 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:32:20,855 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:32:20,855 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:32:22,040 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:32:22,040 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:32:25,042 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:28,246 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:31,448 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:34,651 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:37,857 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:41,059 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:44,263 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:47,453 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:50,642 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:53,832 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:32:57,023 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:00,227 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:03,430 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:06,634 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:09,823 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:13,016 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:16,220 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:19,424 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:22,615 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:25,805 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:29,009 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:32,214 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:35,404 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:38,595 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:41,786 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:44,990 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:48,191 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:51,394 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:54,598 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:33:57,789 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:00,980 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:04,174 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:07,378 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:10,582 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:13,785 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:16,989 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:20,191 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:23,397 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:26,599 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:29,805 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:32,997 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:36,188 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:39,381 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:42,585 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:45,788 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:48,976 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:52,167 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:55,358 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:34:58,562 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:01,763 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:04,954 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:08,144 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:11,346 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:14,549 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:17,752 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:20,956 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:24,157 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:27,361 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:30,565 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:33,755 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:36,947 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:40,135 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:43,336 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:46,539 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:49,743 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:52,947 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:56,203 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:35:59,394 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:02,585 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:05,776 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:08,964 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:12,158 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:15,348 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:18,551 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:21,756 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:24,946 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:28,135 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:31,339 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:34,546 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:37,747 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:40,951 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:44,142 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:47,332 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:50,536 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:53,739 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:36:56,941 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:00,131 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:03,322 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:06,513 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:09,703 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:12,892 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:16,095 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:19,298 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:22,499 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:25,703 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:28,891 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:32,082 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:35,273 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:38,463 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:41,344 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:44,535 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:47,726 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:50,914 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:54,105 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:37:57,308 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:00,509 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:03,700 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:06,890 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:10,092 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:13,295 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:16,496 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:19,701 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:22,891 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:26,082 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:29,285 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:32,489 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:35,693 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:38,884 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:42,072 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:38:45,263 - Python_granada_bot - INFO - Awaiting for new imput
+2015-08-23 19:39:39,111 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:39:39,112 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:39:39,114 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:39:39,114 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:39:44,974 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:39:44,974 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:39:57,976 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:39:57,976 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:39:57,977 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:39:57,977 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:40:02,138 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:40:02,138 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:40:11,926 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:40:11,926 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:40:11,927 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:40:11,927 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:40:16,766 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:40:16,767 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:40:20,148 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:40:20,148 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:40:20,150 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:40:20,150 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:40:27,694 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:40:27,694 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 19:40:31,078 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 19:40:31,078 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 19:40:31,079 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 19:40:31,079 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 19:40:36,647 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 19:40:36,647 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 20:57:33,484 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 20:57:33,563 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 20:57:33,565 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 20:57:33,565 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 20:57:33,819 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 20:57:33,819 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 20:58:50,759 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 20:58:50,759 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 20:58:50,759 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 20:58:50,760 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 20:58:51,233 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 20:58:51,233 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 20:59:49,013 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 20:59:49,013 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 20:59:49,015 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 20:59:49,015 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 20:59:49,283 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 20:59:49,285 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 21:00:24,668 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 21:00:24,670 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 21:00:24,671 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 21:00:24,671 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 21:00:31,480 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 21:00:31,480 - Python_granada_bot.bot_library.MasterBot - INFO - The message is part of an old conversation
+2015-08-23 21:00:31,482 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 21:00:57,923 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 21:00:57,923 - Python_granada_bot.bot_library.MasterBot - INFO - The message is part of an old conversation
+2015-08-23 21:00:57,924 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 21:01:04,996 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 21:01:04,997 - Python_granada_bot.bot_library.MasterBot - INFO - The message is part of an old conversation
+2015-08-23 21:01:04,997 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 21:01:06,490 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 21:01:06,490 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 21:03:10,954 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 21:03:10,954 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 21:03:10,956 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 21:03:10,957 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 21:03:13,315 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 21:03:13,315 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 21:03:26,303 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 21:03:26,303 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 21:03:26,305 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 21:03:26,305 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 21:03:27,993 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 21:03:27,993 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations
+2015-08-23 21:15:05,104 - Python_granada_bot.bot_library.MasterBot - INFO - Analizing update 1.
+2015-08-23 21:15:05,105 - Python_granada_bot.bot_library.MasterBot - INFO - Creating new conversation for the message
+2015-08-23 21:15:05,105 - Python_granada_bot.bot_library.MasterBot - INFO - There are 1 active conversations
+2015-08-23 21:15:05,105 - Python_granada_bot.bot_library.MasterBot - INFO - Updating the status of the conversation.
+2015-08-23 21:15:06,295 - Python_granada_bot.bot_library.MasterBot - INFO - Deleting conversation
+2015-08-23 21:15:06,296 - Python_granada_bot.bot_library.MasterBot - INFO - There are 0 active conversations

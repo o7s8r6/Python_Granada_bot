@@ -1,0 +1,84 @@
+2015-08-23 15:39:04,865 - 31325215Hola - INFO - Received: Hola.
+2015-08-23 15:39:18,822 - 31325215Hola - INFO - Answering: Holi..
+2015-08-23 15:39:32,029 - 31325215Welch - INFO - Received: Welch.
+2015-08-23 15:39:40,756 - 31325215Welch - INFO - Answering: Its italian not welch..
+2015-08-23 15:39:50,835 - 31325215Ah vale - INFO - Received: Ah vale.
+2015-08-23 15:39:51,341 - 31325215Ah vale - INFO - Answering: Ok que haces?.
+2015-08-23 15:39:55,750 - 31325215Ah vale - INFO - Received: Ah vale.
+2015-08-23 15:39:56,181 - 31325215Ah vale - INFO - Answering: Sabes algo del anticristo?.
+2015-08-23 15:40:02,984 - 31325215No - INFO - Received: No.
+2015-08-23 15:40:06,444 - 31325215No - INFO - Answering: Has hablado con otras personas antes?.
+2015-08-23 15:40:10,052 - 31325215Sí - INFO - Received: Hola.
+2015-08-23 15:40:10,052 - 31325215Sí - INFO - Received: Sí.
+2015-08-23 15:40:16,891 - 31325215Sí - INFO - Answering: Estas solo?.
+2015-08-23 15:40:17,400 - 31325215Sí - INFO - Answering: De que lugar eres? Si se puede saber..
+2015-08-23 15:40:26,217 - 31325215De mi casa - INFO - Received: De mi casa.
+2015-08-23 15:40:26,545 - 31325215De mi casa - INFO - Answering: Donde es tu casa..
+2015-08-23 15:40:53,825 - 31325215Del país Casa - INFO - Received: Casa.
+2015-08-23 15:40:56,115 - 31325215Del país Casa - INFO - Answering: Donde..
+2015-08-23 15:41:02,927 - 31325215La calle casa - INFO - Received: La calle casa.
+2015-08-23 15:41:03,653 - 31325215La calle casa - INFO - Answering: Tu casa es la callr..
+2015-08-23 15:41:10,496 - 31325215Sí - INFO - Received: Sí.
+2015-08-23 15:41:10,496 - 31325215Sí - INFO - Received: Sí.
+2015-08-23 15:41:20,052 - 31325215Sí - INFO - Answering: Dame las cordenadas..
+2015-08-23 15:41:20,052 - 31325215Sí - INFO - Answering: Dame las cordenadas..
+2015-08-23 15:41:26,868 - 313252151737289191 - INFO - Received: 1737289191.
+2015-08-23 15:41:27,733 - 313252151737289191 - INFO - Answering: Que hay cerca..
+2015-08-23 15:41:34,549 - 31325215Comida - INFO - Received: Comida.
+2015-08-23 15:41:41,907 - 31325215Comida - INFO - Answering: Siempre la hay..
+2015-08-23 15:41:45,618 - 31325215Comida - INFO - Received: Comida.
+2015-08-23 15:41:47,382 - 31325215Comida - INFO - Answering: Que tipo de comida?.
+2015-08-23 15:41:58,045 - 31325215Japones - INFO - Received: Japones.
+2015-08-23 15:41:59,766 - 31325215Japones - INFO - Answering: Rollos, arroz o que..
+2015-08-23 15:42:04,176 - 31325215Japones - INFO - Received: Japones.
+2015-08-23 15:42:06,601 - 31325215Japones - INFO - Answering: Si japones..
+2015-08-23 15:42:10,217 - 31325215Sushi - INFO - Received: Sushi.
+2015-08-23 15:42:12,746 - 31325215Sushi - INFO - Answering: Sushi wa, shokuhin bakadesu..
+2015-08-23 15:42:32,315 - 31325215Nop - INFO - Received: Nop.
+2015-08-23 15:42:34,418 - 31325215Nop - INFO - Answering: Naze?.
+2015-08-23 15:42:44,440 - 31325215Nada - INFO - Received: Nada.
+2015-08-23 15:42:46,463 - 31325215Nada - INFO - Answering: Nada what?.
+2015-08-23 15:42:53,273 - 31325215Nada de nada - INFO - Received: Nada de nada.
+2015-08-23 15:42:54,716 - 31325215Nada de nada - INFO - Answering: Si, nada de nada..
+2015-08-23 15:43:04,743 - 31325215Eres humano? - INFO - Received: Eres humano?.
+2015-08-23 15:43:07,286 - 31325215Eres humano? - INFO - Answering: Si soy humana..
+2015-08-23 15:43:14,095 - 31325215Como te llamas? - INFO - Received: /peval sin(3).
+2015-08-23 15:43:14,095 - 31325215Como te llamas? - INFO - Received: Como te llamas?.
+2015-08-23 15:43:15,716 - 31325215Como te llamas? - INFO - Answering: Soledad..
+2015-08-23 15:43:16,275 - 31325215Como te llamas? - INFO - Answering: Igual yo..
+2015-08-23 15:43:25,710 - 31325215Donde vives - INFO - Received: Donde vives.
+2015-08-23 15:43:27,450 - 31325215Donde vives - INFO - Answering: Vive en el Estados Unidos..
+2015-08-23 15:43:37,480 - 31325215En que ciudad - INFO - Received: En que ciudad.
+2015-08-23 15:43:39,973 - 31325215En que ciudad - INFO - Answering: En ciudad gotica..
+2015-08-23 15:44:01,494 - 31325215Conoces a batman? - INFO - Received: Conoces a batman?.
+2015-08-23 15:44:13,911 - 31325215Conoces a batman? - INFO - Answering: Yo soy batman..
+2015-08-23 15:44:27,548 - 31325215No deberías decir tu identidad - INFO - Received: No deberías decir tu identidad.
+2015-08-23 15:44:28,437 - 31325215No deberías decir tu identidad - INFO - Answering: Porque no?.
+2015-08-23 15:44:41,635 - 31325215Porque batman está en las sombras - INFO - Received: Porque batman está en las sombras.
+2015-08-23 15:44:53,923 - 31325215Porque batman está en las sombras - INFO - Answering: Pero soy humano..
+2015-08-23 15:45:01,164 - 31325215Y que - INFO - Received: Y que.
+2015-08-23 15:45:02,209 - 31325215Y que - INFO - Answering: Que de que?.
+2015-08-23 15:45:12,210 - 31325215Que de que de que - INFO - Received: Que de que de que.
+2015-08-23 15:45:13,904 - 31325215Que de que de que - INFO - Answering: Que de como cuando?.
+2015-08-23 15:46:13,793 - 31325215Florchp - INFO - Received: Florchp.
+2015-08-23 15:46:25,016 - 31325215Florchp - INFO - Answering: Florencia?.
+2015-08-23 15:46:36,046 - 31325215He estado ahi - INFO - Received: He estado ahi.
+2015-08-23 15:46:36,743 - 31325215He estado ahi - INFO - Answering: En costa rica?.
+2015-08-23 15:46:57,016 - 31325215En florencia - INFO - Received: En florencia.
+2015-08-23 15:46:57,505 - 31325215En florencia - INFO - Answering: Florencia bonito nombre..
+2015-08-23 15:53:44,085 - 31325215Sabes quien es batman? - INFO - Received: Sabes quien es batman?.
+2015-08-23 15:53:44,767 - 31325215Sabes quien es batman? - INFO - Answering: S&iacute;, un murci&eacute;lago humano..
+2015-08-23 15:54:17,181 - 31325215Lo has visto? - INFO - Received: Lo has visto?.
+2015-08-23 15:54:17,608 - 31325215Lo has visto? - INFO - Answering: Eh visto que?.
+2015-08-23 15:54:24,410 - 31325215Batman - INFO - Received: Batman.
+2015-08-23 15:54:25,368 - 31325215Batman - INFO - Answering: Which batman?.
+2015-08-23 15:54:35,381 - 31325215Bathombre - INFO - Received: Bathombre.
+2015-08-23 15:54:36,046 - 31325215Bathombre - INFO - Answering: Which movie..
+2015-08-23 15:54:58,809 - 31325215Dark rises - INFO - Received: Dark rises.
+2015-08-23 15:54:59,461 - 31325215Dark rises - INFO - Answering: Dark red soup?.
+2015-08-23 15:55:06,295 - 31325215Dark fish - INFO - Received: Dark fish.
+2015-08-23 15:55:06,842 - 31325215Dark fish - INFO - Answering: Dark..
+2015-08-23 15:55:13,648 - 31325215Yes - INFO - Received: Yes.
+2015-08-23 15:55:24,582 - 31325215Yes - INFO - Answering: What's your name?.
+2015-08-23 15:55:31,418 - 31325215Ester - INFO - Received: Ester.
+2015-08-23 15:55:42,039 - 31325215Ester - INFO - Answering: Sky soon as possible so you are not invited..

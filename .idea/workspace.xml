@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/bot_library.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5829926">
-              <caret line="393" column="86" selection-start-line="393" selection-start-column="86" selection-end-line="393" selection-end-column="86" />
+              <caret line="393" column="43" selection-start-line="393" selection-start-column="43" selection-end-line="393" selection-end-column="43" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
               </folding>
@@ -118,7 +118,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HADES/outputer.py" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -191,10 +191,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../HADES/outputer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bot_library.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5829926">
-          <caret line="393" column="86" selection-start-line="393" selection-start-column="86" selection-end-line="393" selection-end-column="86" />
+          <caret line="393" column="43" selection-start-line="393" selection-start-column="43" selection-end-line="393" selection-end-column="43" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
           </folding>

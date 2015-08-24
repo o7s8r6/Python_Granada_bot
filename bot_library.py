@@ -391,8 +391,7 @@ class BotCommands(object):
     @staticmethod
     def run_sim(bot,chat_id,args,phase,cache):
 
-        initiate_sim =subprocess.Popen('cd /home/pablogal/Code/HADES-master/HADES.py; python '
-                                       '/home/pablogal/Code/HADES-master/HADES.py '
+        initiate_sim =subprocess.Popen('cd python /home/pablogal/Code/HADES-master/HADES.py '
                                        '/home/pablogal/Code/HADES-master/data.dat -v  '
                                        '--keys=YOSUKE_KEYS -images ',
                              stdout=subprocess.PIPE,stderr=subprocess.PIPE,shell=True)

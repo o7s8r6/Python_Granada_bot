@@ -391,14 +391,14 @@ class BotCommands(object):
     @staticmethod
     def run_sim(bot,chat_id,args,phase,cache):
 
-        initiate_sim =subprocess.Popen('cd python /home/pablogal/Code/HADES-master/HADES.py '
-                                       '/home/pablogal/Code/HADES-master/data.dat -v  '
+        initiate_sim =subprocess.Popen('python /home/pablogal/Code/HADES-master/HADES.py '
+                                       '/home/pablogal/Code/HADES-master/data.dat -quiet  '
                                        '--keys=YOSUKE_KEYS -images ',
                              stdout=subprocess.PIPE,stderr=subprocess.PIPE,shell=True)
 
         simulations, err = initiate_sim.communicate()
 
-        if err == None:
+
 
             image1 = open('/home/pablogal/Code/HADES-master/results/Polarization_map.png', 'rb')
             image2 = open('/home/pablogal/Code/HADES-master/results/Polarization_contours.png.png', 'rb')

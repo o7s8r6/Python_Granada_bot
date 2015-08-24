@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f1a1a0d3-5cce-4a89-b7e3-cc7b5c6b6a17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python_Granada_bot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.86508584">
-              <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+              <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
               <folding>
                 <element signature="e#90#104#0" expanded="true" />
               </folding>
@@ -194,7 +195,7 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.86508584">
-          <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+          <caret line="81" column="43" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
           <folding>
             <element signature="e#90#104#0" expanded="true" />
           </folding>

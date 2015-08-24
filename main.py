@@ -79,7 +79,7 @@ def main():
         PythonGranadaBot.echo()
 
         for second in range(3):
-            tools.update_progress(second/3.0, 3.0-second)
+            tools.update_progress((second+1)/3.0, 3.0-second)
             time.sleep(1)
 
 

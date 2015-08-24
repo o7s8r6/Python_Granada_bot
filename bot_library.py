@@ -402,7 +402,7 @@ class BotCommands(object):
         if err == "":
 
             image1 = open('/home/pablogal/Code/HADES-master/results/Polarization_map.png', 'rb')
-            image2 = open('/home/pablogal/Code/HADES-master/results/Polarization_contours.png.png', 'rb')
+            image2 = open('/home/pablogal/Code/HADES-master/results/Polarization_contours.png', 'rb')
 
             bot.sendPhoto(chat_id=chat_id,photo=image1)
             bot.sendPhoto(chat_id=chat_id,photo=image2)

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1a1a0d3-5cce-4a89-b7e3-cc7b5c6b6a17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot_library.py" afterPath="$PROJECT_DIR$/bot_library.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python_Granada_bot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="bot_library.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot_library.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69337696">
-              <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.5829926">
+              <caret line="393" column="121" selection-start-line="393" selection-start-column="121" selection-end-line="393" selection-end-column="121" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
               </folding>
@@ -194,8 +193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot_library.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69337696">
-          <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.5829926">
+          <caret line="393" column="121" selection-start-line="393" selection-start-column="121" selection-end-line="393" selection-end-column="121" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
           </folding>

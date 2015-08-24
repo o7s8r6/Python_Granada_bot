@@ -12,8 +12,6 @@ import threading
 import uuid
 import subprocess
 
-from numpy import * # Extremely inefficient but needed for easy python evaluation!
-
 
 #Create logger for module
 module_logger = logging.getLogger('Python_granada_bot.bot_library')

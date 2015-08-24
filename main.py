@@ -9,7 +9,7 @@ import logging
 import telegram
 import time
 import logging, argparse
-import bot_library
+import bot_library,tools
 import os,sys
 
 
@@ -77,8 +77,10 @@ def main():
     while True:
         logger.debug('Awaiting for new imput')
         PythonGranadaBot.echo()
-        tools.update_progress(1.0/3, 1.0)
-        time.sleep(3)
+
+        for second in range(3):
+            tools.update_progress(second/3.0, 1.0)
+            time.sleep(1)
 
 
 if __name__ == '__main__':

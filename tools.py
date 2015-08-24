@@ -2,6 +2,8 @@ __author__ = 'Usuario'
 
 import logging
 from numpy import *
+import os as os_library_protected
+import sys as sys_lirary_protected
 
 def setup_logger(logger_name, log_file, level=logging.INFO):
     '''Clase to create new file loggers.
@@ -79,5 +81,5 @@ def update_progress(progress, time):
     block = int(round(barLength * progress))
     text = "\rPercent: [{0}] {1:.2f}% --- {3:.2f} s. remain. {2}".format(
         "=" * (block - 1) + ">" + " " * (barLength - (block - 1)-1), progress * 100, status, time)
-    sys.stdout.write(text)
-    sys.stdout.flush()
+    sys_lirary_protected.stdout.write(text)
+    sys_lirary_protected.stdout.flush()

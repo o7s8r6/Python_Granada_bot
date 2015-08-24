@@ -129,7 +129,7 @@ class ActiveConversation(object):
 
     def ManageUpdate(self,bot,chat_ID,raw_message,chat_engine):
 
-        self.logger.info('Received: '+raw_message+'.')
+        self.logger.info('Received: '+raw_message+' from '+str(chat_ID)+'.')
         try:
             if self.function_type == 'ChatEngine':
                 self.args = raw_message

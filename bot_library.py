@@ -10,6 +10,7 @@ import time
 import os
 import threading
 import uuid
+import subprocess
 
 from numpy import * # Extremely inefficient but needed for easy python evaluation!
 
@@ -171,9 +172,9 @@ class ActiveConversation(object):
 
         except telegram.TelegramError:
                 self.logger.info('Telegram Error. Going to sleep 0.5 second.')
-                time.sleep(0.5)
+                time.sleep(4)
 
-                self.ManageUpdate(bot,chat_ID,raw_message)
+                self.ManageUpdate(bot,chat_ID,raw_message,chat_engine)
 
 
 
@@ -200,7 +201,8 @@ class BotCommands(object):
         self.commands_dict = {'/start': self.start,
                               '/talk': self.submit_talk,
                               '/peval': self.python_eval,
-                              '/log': self.get_log}
+                              '/log': self.get_log,
+                              '/cluster': self.get_cluster_status}
     @staticmethod
     def start(bot,chat_id,args,phase,cache):
 
@@ -348,3 +350,46 @@ class BotCommands(object):
 
                 bot.sendMessage(chat_id=chat_id,text='Please, provide an integer number')
                 return 'Ended',[]
+
+
+    @staticmethod
+    def get_cluster_status(bot,chat_id,args,phase,cache):
+
+        get_simulations = subprocess.Popen(['ssh', 'cluster','ls /home/users/dreg/pablogal/RMHD/datafiles | wc -l'],
+                             stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+        n_simulations, err = get_simulations.communicate()
+
+        get_schedule = subprocess.Popen(['ssh', 'cluster','cat  /home/users/dreg/pablogal/RMHD/simulation_schedule_list.txt | tail -5'],
+                             stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+
+        schedule, err = get_schedule.communicate()
+
+        bot.sendMessage(chat_id=chat_id,text='There are '+str(n_simulations)+' simulation bundles in the cluster')
+
+        bot.sendMessage(chat_id=chat_id,text='Last 3 simulations:')
+
+        clean_schedule= filter(None,schedule.split('\n'))
+
+        for line in clean_schedule:
+
+            bot.sendMessage(chat_id=chat_id,text=line.replace('       ','')) # replace is for propper formating of te
+             #  lines
+
+	get_qstat = subprocess.Popen(['ssh', 'cluster','qstat | tail -n +3'],
+                             stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+
+	qstat, err = get_qstat.communicate()
+
+	clean_qstat= qstat.split('\n')
+	
+	for line in clean_qstat:
+		if line:	
+			bot.sendMessage(chat_id=chat_id,text=line) # replace is for propper formating of the lines
+
+        return 'Ended',[]
+
+
+
+
+
+

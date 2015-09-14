@@ -19,7 +19,7 @@ class BotCommands(object):
                               '/log': self.get_log,
                               '/cluster': self.get_cluster_status,
                               '/sim': self.run_sim,
-                              '/Sendq': self.SendQuestionary,
+                              '/sendq': self.SendQuestionary,
                               '/questionary':self.questionary,
                               '/addQuestion':self.UpdateQuestionary,
                               '/addme':self.AddQuestionaryUser
@@ -246,10 +246,11 @@ class BotCommands(object):
 
         for user in lines:
 
-            new_conversation =bot_library.ActiveConversation(int(user),'/questionary')
-            conversation_list.append(new_conversation)
-            new_conversation.ManageUpdate(bot,chat_ID=int(user),raw_message=args,chat_engine=None,
-                                          conversation_list=conversation_list)
+            if user != "":
+                new_conversation =bot_library.ActiveConversation(int(user),'/questionary')
+                conversation_list.append(new_conversation)
+                new_conversation.ManageUpdate(bot,chat_ID=int(user),raw_message=args,chat_engine=None,
+                                              conversation_list=conversation_list)
 
         return 'Ended',[]
 

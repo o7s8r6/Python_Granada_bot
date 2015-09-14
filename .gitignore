@@ -62,5 +62,9 @@ docs/_build/
 target/
 
 #PyCharm
+.idea/*
 *.idea
 # Created by .ignore support plugin (hsz.mobi)
+
+#Logs
+/logs/*

@@ -10,6 +10,7 @@ import string
 import bot_library
 from numpy import *
 import matplotlib
+matplotlib.use('Agg')
 import numpy as np
 import pylab as pl
 

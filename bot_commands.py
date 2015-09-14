@@ -8,6 +8,10 @@ import mailer,smtplib
 import os
 import string
 import bot_library
+from numpy import *
+import matplotlib
+import numpy as np
+import pylab as pl
 
 class BotCommands(object):
 
@@ -22,7 +26,8 @@ class BotCommands(object):
                               '/sendq': self.SendQuestionary,
                               '/questionary':self.questionary,
                               '/addQuestion':self.UpdateQuestionary,
-                              '/addme':self.AddQuestionaryUser
+                              '/addme':self.AddQuestionaryUser,
+                              '/getq':self.printquestionary
 
                 }
     @staticmethod
@@ -111,8 +116,17 @@ class BotCommands(object):
     def python_eval(bot,chat_id,args,phase,cache,conversation_list):
 
         try:
-            evaluation=tools.p_Eval_(args)
-            bot.sendMessage(chat_id=chat_id,text=evaluation)
+
+            if "." or "_" in args:
+                bot.sendMessage(chat_id=chat_id,text='Error evaluating your command.')
+                bot.sendMessage(chat_id=chat_id,
+                text='''Your request raised NameError.
+                My creators programmed me to be strong against 'clever' people.
+                Be nice with me!
+                ''')
+            else:
+                evaluation=tools.p_Eval_(args)
+                bot.sendMessage(chat_id=chat_id,text=evaluation)
 
         except SyntaxError:
             bot.sendMessage(chat_id=chat_id,text='Error evaluating your command.')
@@ -355,5 +369,34 @@ class BotCommands(object):
 
         return 'Ended',[]
 
+    @staticmethod
+    def printquestionary(bot,chat_id,args,phase,cache,conversation_list):
+
+        from collections import Counter,OrderedDict
+
+        with open("./interactions/questionary_stats.txt",'r') as questionstats:
+                    keys=questionstats.read().split('\n')
 
 
+        keynumber=Counter(filter(None, keys))
+        keynumber2=OrderedDict(sorted(keynumber.items(), reverse=True));
+
+        bar_width = 2.0
+        X = np.arange(0,len(keynumber)*2,2)
+        vals=keynumber2.values()
+        keys=keynumber2.keys()
+        for i in range(0,len(X)):
+            pl.bar(X[i],float(vals[i]),bar_width,align='center',color=matplotlib.cm.jet(1.*i/len(X)), hatch="//")
+
+        pl.xticks(X, keys, fontsize = 30);
+        pl.yticks(fontsize=30)
+        fig = matplotlib.pyplot.gcf()
+        fig.set_size_inches(18.5, 10.5)
+        pl.grid(True)
+        ax=pl.gca()
+        [i.set_linewidth(2) for i in ax.spines.itervalues()]
+        pl.savefig('./interactions/stats.png')
+        image1 = open('./interactions/stats.png', 'rb')
+        bot.sendPhoto(chat_id=chat_id,photo=image1)
+
+        return 'Ended',[]

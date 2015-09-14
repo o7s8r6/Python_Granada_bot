@@ -112,3 +112,593 @@
 2015-08-23 19:40:31,079 - fd89b241b8194e92b470b6e770f8038a - INFO - Conversation marked as chat.
 2015-08-23 19:40:31,079 - fd89b241b8194e92b470b6e770f8038a - INFO - Received: Quieres ir a zorrear.
 2015-08-23 19:40:36,411 - fd89b241b8194e92b470b6e770f8038a - INFO - Answering: No gracias ya fui ayer..
+2015-09-14 16:07:21,367 - 5a578b3f88644f7cb3630751350f32e5 - INFO - Conversation marked as chat.
+2015-09-14 16:07:21,367 - ffdd30e5a61a4597aa91269b1c3a2d76 - INFO - Conversation marked as command.
+2015-09-14 16:07:21,368 - 5a578b3f88644f7cb3630751350f32e5 - INFO - Received: Hola from 12934778.
+2015-09-14 16:07:21,368 - ffdd30e5a61a4597aa91269b1c3a2d76 - INFO - Received: /start from 12934778.
+2015-09-14 16:07:21,669 - ffdd30e5a61a4597aa91269b1c3a2d76 - INFO - Talk status code recieved: Ended.
+2015-09-14 16:07:22,773 - 5a578b3f88644f7cb3630751350f32e5 - INFO - Answering: Sorry..
+2015-09-14 16:12:38,362 - a5f79f70f89d4fac9c67d158078ee6a9 - INFO - Conversation marked as chat.
+2015-09-14 16:12:38,362 - a5f79f70f89d4fac9c67d158078ee6a9 - INFO - Received: Hola from 12934778.
+2015-09-14 16:12:39,379 - a5f79f70f89d4fac9c67d158078ee6a9 - INFO - Answering: &iquest;como te llamas?.
+2015-09-14 16:18:17,030 - 71e0c6306df44643870adfa2b6ad5ed3 - INFO - Conversation marked as chat.
+2015-09-14 16:18:17,030 - 71e0c6306df44643870adfa2b6ad5ed3 - INFO - Received: Hola from 12934778.
+2015-09-14 16:18:17,415 - 71e0c6306df44643870adfa2b6ad5ed3 - INFO - Answering: Como esta?.
+2015-09-14 16:48:04,205 - e723ff7442e84102818f4517f726b990 - INFO - Conversation marked as chat.
+2015-09-14 16:48:04,206 - e723ff7442e84102818f4517f726b990 - INFO - Received: Hola from 12934778.
+2015-09-14 16:48:05,368 - e723ff7442e84102818f4517f726b990 - INFO - Answering: Que te paso?.
+2015-09-14 16:48:09,085 - 7cfc48ceac8242b69c1b8bef0d6a19ca - INFO - Conversation marked as chat.
+2015-09-14 16:48:09,085 - 7cfc48ceac8242b69c1b8bef0d6a19ca - INFO - Received: Hey from 12934778.
+2015-09-14 16:48:09,518 - 7cfc48ceac8242b69c1b8bef0d6a19ca - INFO - Answering: Hey que..
+2015-09-14 16:48:43,281 - 43fb7ff87d2e4c139490b4640c89c832 - INFO - Conversation marked as command.
+2015-09-14 16:48:43,282 - 43fb7ff87d2e4c139490b4640c89c832 - INFO - Received: /start from 12934778.
+2015-09-14 16:48:43,553 - 43fb7ff87d2e4c139490b4640c89c832 - INFO - Talk status code recieved: Ended.
+2015-09-14 16:49:40,488 - 764cdea5f6104ef6bdf27183cbb584a3 - INFO - Conversation marked as command.
+2015-09-14 16:49:40,488 - 764cdea5f6104ef6bdf27183cbb584a3 - INFO - Received: /start from 12934778.
+2015-09-14 16:49:40,735 - 764cdea5f6104ef6bdf27183cbb584a3 - INFO - Talk status code recieved: Ended.
+2015-09-14 16:52:49,942 - 67c467f5845b4d879870c02e1998d761 - INFO - Conversation marked as command.
+2015-09-14 16:52:49,942 - 67c467f5845b4d879870c02e1998d761 - INFO - Received: /start from 12934778.
+2015-09-14 16:52:50,186 - 67c467f5845b4d879870c02e1998d761 - INFO - Talk status code recieved: Ended.
+2015-09-14 16:55:15,338 - fc4b3f4f0bae4a10998e54ab69100a69 - INFO - Conversation marked as command.
+2015-09-14 16:55:15,338 - fc4b3f4f0bae4a10998e54ab69100a69 - INFO - Received: /start from 12934778.
+2015-09-14 16:55:15,586 - fc4b3f4f0bae4a10998e54ab69100a69 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:05:32,079 - a22b10b5828a41e2949aca3faad70312 - INFO - Conversation marked as chat.
+2015-09-14 17:05:32,079 - a22b10b5828a41e2949aca3faad70312 - INFO - Received: Hola from 12934778.
+2015-09-14 17:05:33,209 - a22b10b5828a41e2949aca3faad70312 - INFO - Answering: Como estas?.
+2015-09-14 17:05:36,961 - b24f77873d0a44268bdd2760950adbd1 - INFO - Conversation marked as command.
+2015-09-14 17:05:36,962 - b24f77873d0a44268bdd2760950adbd1 - INFO - Received: /start from 12934778.
+2015-09-14 17:05:37,206 - b24f77873d0a44268bdd2760950adbd1 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:08:19,940 - 826f094f95794d68acf05529771e18a6 - INFO - Conversation marked as command.
+2015-09-14 17:08:19,941 - 826f094f95794d68acf05529771e18a6 - INFO - Received: /start from 12934778.
+2015-09-14 17:08:20,183 - 826f094f95794d68acf05529771e18a6 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:08:26,896 - 9531daf0be964f4c8aa400572e3bdb77 - INFO - Conversation marked as command.
+2015-09-14 17:08:26,897 - 9531daf0be964f4c8aa400572e3bdb77 - INFO - Received: /test from 12934778.
+2015-09-14 17:10:33,578 - 566d86be84224821be3f309a45abf0ef - INFO - Conversation marked as command.
+2015-09-14 17:10:33,579 - 566d86be84224821be3f309a45abf0ef - INFO - Received: /test from 12934778.
+2015-09-14 17:10:33,579 - f79b91c67ffd41eabd5846cb6e45515f - INFO - Conversation marked as chat.
+2015-09-14 17:10:33,579 - 566d86be84224821be3f309a45abf0ef - INFO - Talk status code recieved: Ended.
+2015-09-14 17:11:08,402 - 7722e1a685c146d5b2df42cfb27d72b6 - INFO - Conversation marked as command.
+2015-09-14 17:11:08,403 - 7722e1a685c146d5b2df42cfb27d72b6 - INFO - Received: /start from 12934778.
+2015-09-14 17:11:08,673 - 7722e1a685c146d5b2df42cfb27d72b6 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:11:18,658 - 6308c21ce16d48b5971cce46f8d88f33 - INFO - Conversation marked as command.
+2015-09-14 17:11:18,658 - 6308c21ce16d48b5971cce46f8d88f33 - INFO - Received: /test from 12934778.
+2015-09-14 17:11:18,659 - b489259530d84803bd5eed36f581d319 - INFO - Conversation marked as chat.
+2015-09-14 17:11:18,659 - 6308c21ce16d48b5971cce46f8d88f33 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:12:02,928 - b593db7d049a41249b5a539e9464f72a - INFO - Conversation marked as command.
+2015-09-14 17:12:02,928 - b593db7d049a41249b5a539e9464f72a - INFO - Received: /test from 12934778.
+2015-09-14 17:12:02,929 - 40031c5ba4074c4db57e43c7ab10c599 - INFO - Conversation marked as chat.
+2015-09-14 17:12:02,929 - b593db7d049a41249b5a539e9464f72a - INFO - Talk status code recieved: Ended.
+2015-09-14 17:17:48,001 - e68938f2736144d4945bdc71c721c81f - INFO - Conversation marked as command.
+2015-09-14 17:17:48,002 - e68938f2736144d4945bdc71c721c81f - INFO - Received: /test from 12934778.
+2015-09-14 17:17:48,002 - 21392576f8614ae98a06db4a06e8bc45 - INFO - Conversation marked as chat.
+2015-09-14 17:17:48,002 - e68938f2736144d4945bdc71c721c81f - INFO - Talk status code recieved: Ended.
+2015-09-14 17:18:26,500 - b2c9159591094b3e856a5827339dad9e - INFO - Conversation marked as command.
+2015-09-14 17:18:26,500 - b2c9159591094b3e856a5827339dad9e - INFO - Received: /test from 12934778.
+2015-09-14 17:18:26,500 - b04a110407c648d98d77e841c5db22a4 - INFO - Conversation marked as chat.
+2015-09-14 17:18:26,501 - b2c9159591094b3e856a5827339dad9e - INFO - Talk status code recieved: Ended.
+2015-09-14 17:18:29,966 - b04a110407c648d98d77e841c5db22a4 - INFO - Received: /start from 12934778.
+2015-09-14 17:18:30,375 - b04a110407c648d98d77e841c5db22a4 - INFO - Answering: Start what..
+2015-09-14 17:18:40,249 - 8fb924cb89d14978be42d78472e2d806 - INFO - Conversation marked as command.
+2015-09-14 17:18:40,250 - 8fb924cb89d14978be42d78472e2d806 - INFO - Received: /start from 12934778.
+2015-09-14 17:18:40,511 - 8fb924cb89d14978be42d78472e2d806 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:18:47,228 - e3fe9c72d60d4e04b8ce98f04e1dd51e - INFO - Conversation marked as command.
+2015-09-14 17:18:47,228 - e3fe9c72d60d4e04b8ce98f04e1dd51e - INFO - Received: /start from 12934778.
+2015-09-14 17:18:47,471 - e3fe9c72d60d4e04b8ce98f04e1dd51e - INFO - Talk status code recieved: Ended.
+2015-09-14 17:19:24,718 - 78e62d2da5de4d078dca9ca727af8e06 - INFO - Conversation marked as command.
+2015-09-14 17:19:24,718 - 78e62d2da5de4d078dca9ca727af8e06 - INFO - Received: /start from 12934778.
+2015-09-14 17:19:24,974 - 78e62d2da5de4d078dca9ca727af8e06 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:19:28,432 - 87ff58184c9547dd911c2462014af227 - INFO - Conversation marked as command.
+2015-09-14 17:19:28,433 - 87ff58184c9547dd911c2462014af227 - INFO - Received: /test from 12934778.
+2015-09-14 17:19:28,433 - c442dfa3ab3c4075b57037d3bca5427c - INFO - Conversation marked as chat.
+2015-09-14 17:19:28,433 - 87ff58184c9547dd911c2462014af227 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:19:34,228 - d1e1d45107a3448db25bf06ba790b0d9 - INFO - Conversation marked as command.
+2015-09-14 17:19:34,229 - d1e1d45107a3448db25bf06ba790b0d9 - INFO - Received: /test from 12934778.
+2015-09-14 17:19:34,229 - 764a5ccd6d8b4289a35563e2464f15d6 - INFO - Conversation marked as chat.
+2015-09-14 17:19:34,229 - d1e1d45107a3448db25bf06ba790b0d9 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:19:44,205 - 764a5ccd6d8b4289a35563e2464f15d6 - INFO - Received: hola from 12934778.
+2015-09-14 17:19:44,502 - 764a5ccd6d8b4289a35563e2464f15d6 - INFO - Answering: Quien eres?.
+2015-09-14 17:22:01,538 - 7bb354346f004d4eb4b36dd2f7299d23 - INFO - Conversation marked as command.
+2015-09-14 17:22:01,538 - 7bb354346f004d4eb4b36dd2f7299d23 - INFO - Received: /test from 12934778.
+2015-09-14 17:22:01,538 - 7d7c554e0f7f41139a1500ba63cf0ed2 - INFO - Conversation marked as command.
+2015-09-14 17:22:01,538 - 7bb354346f004d4eb4b36dd2f7299d23 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:22:11,492 - 7d7c554e0f7f41139a1500ba63cf0ed2 - INFO - Received: Hola from 12934778.
+2015-09-14 17:22:11,758 - 7d7c554e0f7f41139a1500ba63cf0ed2 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:22:18,450 - df989204c8574b8bb1cfa3897efe7371 - INFO - Conversation marked as command.
+2015-09-14 17:22:18,450 - df989204c8574b8bb1cfa3897efe7371 - INFO - Received: /test from 12934778.
+2015-09-14 17:22:18,450 - b430664c2d4b48b5a8fd2865cc996560 - INFO - Conversation marked as command.
+2015-09-14 17:22:18,450 - df989204c8574b8bb1cfa3897efe7371 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:22:21,915 - b430664c2d4b48b5a8fd2865cc996560 - INFO - Received: lelelelele from 12934778.
+2015-09-14 17:22:22,160 - b430664c2d4b48b5a8fd2865cc996560 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:26:37,903 - 5dcd7d41ba3f490caee33f1fa1c279ff - INFO - Conversation marked as command.
+2015-09-14 17:26:37,904 - 5dcd7d41ba3f490caee33f1fa1c279ff - INFO - Received: /test from 12934778.
+2015-09-14 17:26:37,904 - e0f97bfee8814f65bce2d5137a112840 - INFO - Conversation marked as command.
+2015-09-14 17:26:37,904 - e0f97bfee8814f65bce2d5137a112840 - INFO - Received:  from 12934778.
+2015-09-14 17:26:38,140 - e0f97bfee8814f65bce2d5137a112840 - INFO - Telegram Error. Going to sleep 0.5 second.
+2015-09-14 17:26:52,073 - 5dcd7d41ba3f490caee33f1fa1c279ff - INFO - Received: Hola from 12934778.
+2015-09-14 17:26:52,073 - 10a6c6cbd87d40ecad9cb1fb1901692a - INFO - Conversation marked as command.
+2015-09-14 17:26:52,073 - 10a6c6cbd87d40ecad9cb1fb1901692a - INFO - Received: Hola from 12934778.
+2015-09-14 17:26:52,339 - 10a6c6cbd87d40ecad9cb1fb1901692a - INFO - Talk status code recieved: Ended.
+2015-09-14 17:26:52,340 - 5dcd7d41ba3f490caee33f1fa1c279ff - INFO - Talk status code recieved: Ended.
+2015-09-14 17:27:55,650 - d80f469d84d446ca80dffa4ea7743841 - INFO - Conversation marked as chat.
+2015-09-14 17:27:55,651 - d80f469d84d446ca80dffa4ea7743841 - INFO - Received: Hola from 12934778.
+2015-09-14 17:28:00,340 - d80f469d84d446ca80dffa4ea7743841 - INFO - Answering: Hola!.
+2015-09-14 17:28:07,270 - e1712238c11c4a66a8c7f8f26ec0f5aa - INFO - Conversation marked as command.
+2015-09-14 17:28:07,270 - e1712238c11c4a66a8c7f8f26ec0f5aa - INFO - Received: /test from 12934778.
+2015-09-14 17:28:07,270 - 9228ef65338b4905b6620f9bd33e8727 - INFO - Conversation marked as command.
+2015-09-14 17:28:07,271 - 9228ef65338b4905b6620f9bd33e8727 - INFO - Received:  from 12934778.
+2015-09-14 17:28:07,507 - 9228ef65338b4905b6620f9bd33e8727 - INFO - Telegram Error. Going to sleep 0.5 second.
+2015-09-14 17:28:11,511 - 9228ef65338b4905b6620f9bd33e8727 - INFO - Received:  from 12934778.
+2015-09-14 17:28:11,749 - 9228ef65338b4905b6620f9bd33e8727 - INFO - Telegram Error. Going to sleep 0.5 second.
+2015-09-14 17:28:15,753 - 9228ef65338b4905b6620f9bd33e8727 - INFO - Received:  from 12934778.
+2015-09-14 17:28:15,976 - 9228ef65338b4905b6620f9bd33e8727 - INFO - Telegram Error. Going to sleep 0.5 second.
+2015-09-14 17:28:19,978 - 9228ef65338b4905b6620f9bd33e8727 - INFO - Received:  from 12934778.
+2015-09-14 17:28:20,202 - 9228ef65338b4905b6620f9bd33e8727 - INFO - Telegram Error. Going to sleep 0.5 second.
+2015-09-14 17:28:23,778 - 996ba9aaacc04c87932e99386ccd6d0c - INFO - Conversation marked as command.
+2015-09-14 17:28:23,778 - 996ba9aaacc04c87932e99386ccd6d0c - INFO - Received: /test from 12934778.
+2015-09-14 17:28:23,779 - 227be29652de4d1984ab01d3731e7556 - INFO - Conversation marked as command.
+2015-09-14 17:28:23,779 - 227be29652de4d1984ab01d3731e7556 - INFO - Received:  from 12934778.
+2015-09-14 17:28:24,001 - 227be29652de4d1984ab01d3731e7556 - INFO - Telegram Error. Going to sleep 0.5 second.
+2015-09-14 17:28:28,005 - 227be29652de4d1984ab01d3731e7556 - INFO - Received:  from 12934778.
+2015-09-14 17:28:28,701 - 227be29652de4d1984ab01d3731e7556 - INFO - Telegram Error. Going to sleep 0.5 second.
+2015-09-14 17:28:32,705 - 227be29652de4d1984ab01d3731e7556 - INFO - Received:  from 12934778.
+2015-09-14 17:28:32,940 - 227be29652de4d1984ab01d3731e7556 - INFO - Telegram Error. Going to sleep 0.5 second.
+2015-09-14 17:28:36,942 - 227be29652de4d1984ab01d3731e7556 - INFO - Received:  from 12934778.
+2015-09-14 17:28:37,165 - 227be29652de4d1984ab01d3731e7556 - INFO - Telegram Error. Going to sleep 0.5 second.
+2015-09-14 17:28:41,170 - 227be29652de4d1984ab01d3731e7556 - INFO - Received:  from 12934778.
+2015-09-14 17:28:41,408 - 996ba9aaacc04c87932e99386ccd6d0c - INFO - Talk status code recieved: Ended.
+2015-09-14 17:28:48,115 - 227be29652de4d1984ab01d3731e7556 - INFO - Received: Hola from 12934778.
+2015-09-14 17:28:48,373 - 227be29652de4d1984ab01d3731e7556 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:28:55,075 - ff77a0ecae2e4cae996c6c7ee42952c8 - INFO - Conversation marked as command.
+2015-09-14 17:28:55,076 - ff77a0ecae2e4cae996c6c7ee42952c8 - INFO - Received: /start from 12934778.
+2015-09-14 17:28:55,319 - ff77a0ecae2e4cae996c6c7ee42952c8 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:29:02,042 - b6d25b144df04a269de260d361501b70 - INFO - Conversation marked as command.
+2015-09-14 17:29:02,043 - b6d25b144df04a269de260d361501b70 - INFO - Received: /test holaaa from 12934778.
+2015-09-14 17:29:02,043 - 03356b0d9b79400e81211910e301e90e - INFO - Conversation marked as command.
+2015-09-14 17:29:02,043 - 03356b0d9b79400e81211910e301e90e - INFO - Received: holaaa from 12934778.
+2015-09-14 17:29:02,290 - 03356b0d9b79400e81211910e301e90e - INFO - Talk status code recieved: Ended.
+2015-09-14 17:29:02,290 - b6d25b144df04a269de260d361501b70 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:32:20,062 - e0b020e84e4f42369b5d945ee78d56cb - INFO - Conversation marked as command.
+2015-09-14 17:32:20,066 - e0b020e84e4f42369b5d945ee78d56cb - INFO - Received: /test from 12934778.
+2015-09-14 17:32:20,067 - 4ee4045b28d84858a975fcf096701e6a - INFO - Conversation marked as chat.
+2015-09-14 17:32:20,067 - 4ee4045b28d84858a975fcf096701e6a - INFO - Received:  from 12934778.
+2015-09-14 17:32:55,358 - aafadca746e94b73819dd72daebcedfa - INFO - Conversation marked as command.
+2015-09-14 17:32:55,358 - aafadca746e94b73819dd72daebcedfa - INFO - Received: /test from 12934778.
+2015-09-14 17:32:55,358 - baca12b49d4348a084c5d2d31397e730 - INFO - Conversation marked as command.
+2015-09-14 17:32:55,359 - baca12b49d4348a084c5d2d31397e730 - INFO - Received:  from 12934778.
+2015-09-14 17:32:55,606 - baca12b49d4348a084c5d2d31397e730 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:32:55,606 - aafadca746e94b73819dd72daebcedfa - INFO - Talk status code recieved: Ended.
+2015-09-14 17:33:08,804 - baca12b49d4348a084c5d2d31397e730 - INFO - Received: Option A from 12934778.
+2015-09-14 17:33:09,291 - baca12b49d4348a084c5d2d31397e730 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:39:01,943 - 40a023245ac84f5595a23d36d98d89c2 - INFO - Conversation marked as command.
+2015-09-14 17:39:01,943 - 40a023245ac84f5595a23d36d98d89c2 - INFO - Received: /test from 12934778.
+2015-09-14 17:39:01,944 - ddc9937a8b144a0ebaced89cc708c611 - INFO - Conversation marked as command.
+2015-09-14 17:39:01,944 - ddc9937a8b144a0ebaced89cc708c611 - INFO - Received:  from 12934778.
+2015-09-14 17:39:18,910 - 120cc9405c454ca3a3e0ad92e1f55991 - INFO - Conversation marked as command.
+2015-09-14 17:39:18,911 - 120cc9405c454ca3a3e0ad92e1f55991 - INFO - Received: /test from 12934778.
+2015-09-14 17:39:18,911 - 24d4f62f1e344959a0062fb1c3549649 - INFO - Conversation marked as command.
+2015-09-14 17:39:18,911 - 24d4f62f1e344959a0062fb1c3549649 - INFO - Received:  from 12934778.
+2015-09-14 17:39:19,175 - 24d4f62f1e344959a0062fb1c3549649 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:39:19,175 - 120cc9405c454ca3a3e0ad92e1f55991 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:39:22,639 - 24d4f62f1e344959a0062fb1c3549649 - INFO - Received: Yup from 12934778.
+2015-09-14 17:39:23,135 - 24d4f62f1e344959a0062fb1c3549649 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:46:22,839 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Conversation marked as command.
+2015-09-14 17:46:22,840 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Received: /addQuestion ¿Cuantas pelotas hay? from 12934778.
+2015-09-14 17:46:22,840 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:46:32,782 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Received: Una from 12934778.
+2015-09-14 17:46:32,783 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Received: Dos from 12934778.
+2015-09-14 17:46:32,783 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:46:32,783 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Received: Tres from 12934778.
+2015-09-14 17:46:32,784 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:46:32,785 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:46:39,511 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Received: Cuatro from 12934778.
+2015-09-14 17:46:39,511 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:46:46,194 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Received: Cinco from 12934778.
+2015-09-14 17:46:46,195 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:46:49,679 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Received: Seis /end from 12934778.
+2015-09-14 17:46:49,679 - 2fb9a9e5ad7a4243b122337590d33444 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:46:56,359 - 56a4723610984220b9e6714b098f2c2a - INFO - Conversation marked as command.
+2015-09-14 17:46:56,359 - 56a4723610984220b9e6714b098f2c2a - INFO - Received: /test from 12934778.
+2015-09-14 17:46:56,359 - bedc553cdd1c4203a354f63f449600a3 - INFO - Conversation marked as command.
+2015-09-14 17:46:56,359 - bedc553cdd1c4203a354f63f449600a3 - INFO - Received:  from 12934778.
+2015-09-14 17:46:56,588 - bedc553cdd1c4203a354f63f449600a3 - INFO - Telegram Error. Going to sleep 4 seconds.
+2015-09-14 17:47:00,591 - bedc553cdd1c4203a354f63f449600a3 - INFO - Received:  from 12934778.
+2015-09-14 17:47:00,836 - bedc553cdd1c4203a354f63f449600a3 - INFO - Telegram Error. Going to sleep 4 seconds.
+2015-09-14 17:47:04,838 - bedc553cdd1c4203a354f63f449600a3 - INFO - Received:  from 12934778.
+2015-09-14 17:47:05,068 - bedc553cdd1c4203a354f63f449600a3 - INFO - Telegram Error. Going to sleep 4 seconds.
+2015-09-14 17:47:09,072 - bedc553cdd1c4203a354f63f449600a3 - INFO - Received:  from 12934778.
+2015-09-14 17:47:09,313 - bedc553cdd1c4203a354f63f449600a3 - INFO - Telegram Error. Going to sleep 4 seconds.
+2015-09-14 17:47:13,316 - bedc553cdd1c4203a354f63f449600a3 - INFO - Received:  from 12934778.
+2015-09-14 17:47:13,561 - 56a4723610984220b9e6714b098f2c2a - INFO - Talk status code recieved: Ended.
+2015-09-14 17:48:03,877 - b69b6913c8824a9baad59f8013a9630a - INFO - Conversation marked as command.
+2015-09-14 17:48:03,878 - 19e7b7a4c33249a68b22e18e27dc4edd - INFO - Conversation marked as chat.
+2015-09-14 17:48:03,878 - 95cb2fb9e7d24555b1d2a6418b484826 - INFO - Conversation marked as chat.
+2015-09-14 17:48:03,879 - b69b6913c8824a9baad59f8013a9630a - INFO - Received: /addQuestion ¿Cuantas pelotas hay? from 12934778.
+2015-09-14 17:48:03,879 - 19e7b7a4c33249a68b22e18e27dc4edd - INFO - Received: Una from 12934778.
+2015-09-14 17:48:03,879 - 95cb2fb9e7d24555b1d2a6418b484826 - INFO - Received: Dos from 12934778.
+2015-09-14 17:48:03,881 - b69b6913c8824a9baad59f8013a9630a - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:48:04,422 - 19e7b7a4c33249a68b22e18e27dc4edd - INFO - Answering: Dos :D..
+2015-09-14 17:48:05,507 - 95cb2fb9e7d24555b1d2a6418b484826 - INFO - Answering: Mmm yo tengo 100..
+2015-09-14 17:48:09,225 - b69b6913c8824a9baad59f8013a9630a - INFO - Received: Tres from 12934778.
+2015-09-14 17:48:09,225 - b69b6913c8824a9baad59f8013a9630a - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:48:24,773 - c61017535fe444c8a1dfba1469bc024d - INFO - Conversation marked as command.
+2015-09-14 17:48:24,773 - c61017535fe444c8a1dfba1469bc024d - INFO - Received: /addQuestion ¿Cuantas pelotas hay? from 12934778.
+2015-09-14 17:48:24,774 - c61017535fe444c8a1dfba1469bc024d - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:48:31,479 - c61017535fe444c8a1dfba1469bc024d - INFO - Received: Una from 12934778.
+2015-09-14 17:48:31,479 - c61017535fe444c8a1dfba1469bc024d - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:48:38,178 - c61017535fe444c8a1dfba1469bc024d - INFO - Received: Dos from 12934778.
+2015-09-14 17:48:38,179 - c61017535fe444c8a1dfba1469bc024d - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:48:41,649 - c61017535fe444c8a1dfba1469bc024d - INFO - Received: Tres from 12934778.
+2015-09-14 17:48:41,649 - c61017535fe444c8a1dfba1469bc024d - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:48:48,367 - c61017535fe444c8a1dfba1469bc024d - INFO - Received: Cuatro /end from 12934778.
+2015-09-14 17:48:48,368 - c61017535fe444c8a1dfba1469bc024d - INFO - Talk status code recieved: Ended.
+2015-09-14 17:48:56,239 - 602c3b8e51124273a23e8e9b01cfb474 - INFO - Conversation marked as command.
+2015-09-14 17:48:56,239 - 602c3b8e51124273a23e8e9b01cfb474 - INFO - Received: /test from 12934778.
+2015-09-14 17:48:56,240 - 0371ff638f214444af75fc4ab2c8ef94 - INFO - Conversation marked as command.
+2015-09-14 17:48:56,240 - 0371ff638f214444af75fc4ab2c8ef94 - INFO - Received:  from 12934778.
+2015-09-14 17:48:56,482 - 0371ff638f214444af75fc4ab2c8ef94 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:48:56,482 - 602c3b8e51124273a23e8e9b01cfb474 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:49:03,184 - 0371ff638f214444af75fc4ab2c8ef94 - INFO - Received: djsf from 12934778.
+2015-09-14 17:49:03,429 - 0371ff638f214444af75fc4ab2c8ef94 - INFO - Talk status code recieved: Same_phase.
+2015-09-14 17:49:13,387 - 0371ff638f214444af75fc4ab2c8ef94 - INFO - Received: Tres from 12934778.
+2015-09-14 17:49:13,931 - 0371ff638f214444af75fc4ab2c8ef94 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:51:47,535 - 5b7af51c324b43ad877cc08461f966c5 - INFO - Conversation marked as chat.
+2015-09-14 17:51:47,536 - 5b7af51c324b43ad877cc08461f966c5 - INFO - Received: test from 12934778.
+2015-09-14 17:51:48,489 - 5b7af51c324b43ad877cc08461f966c5 - INFO - Answering: No test..
+2015-09-14 17:51:52,229 - 55893ce172d04a8288ddb60615a5fcef - INFO - Conversation marked as command.
+2015-09-14 17:51:52,229 - 55893ce172d04a8288ddb60615a5fcef - INFO - Received: /test from 12934778.
+2015-09-14 17:51:52,229 - e2984bff245447cd9ef7248879eacbb8 - INFO - Conversation marked as command.
+2015-09-14 17:51:52,229 - e2984bff245447cd9ef7248879eacbb8 - INFO - Received:  from 12934778.
+2015-09-14 17:51:52,490 - e2984bff245447cd9ef7248879eacbb8 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:51:52,490 - 55893ce172d04a8288ddb60615a5fcef - INFO - Talk status code recieved: Ended.
+2015-09-14 17:51:59,188 - e2984bff245447cd9ef7248879eacbb8 - INFO - Received: Una from 12934778.
+2015-09-14 17:51:59,702 - e2984bff245447cd9ef7248879eacbb8 - INFO - Talk status code recieved: Ended.
+2015-09-14 17:52:06,415 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Conversation marked as command.
+2015-09-14 17:52:06,416 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Received: /addQuestion "Hola" from 12934778.
+2015-09-14 17:52:06,688 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:52:16,626 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Received: Adios from 12934778.
+2015-09-14 17:52:17,130 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:52:20,604 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Received: No me gustas from 12934778.
+2015-09-14 17:52:21,108 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:52:27,802 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Received: eres fea from 12934778.
+2015-09-14 17:52:28,297 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Talk status code recieved: Next_phase.
+2015-09-14 17:53:49,523 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Received: mola /end from 12934778.
+2015-09-14 17:53:50,005 - ef4278f34e774e0cb3b0197552d5a64f - INFO - Talk status code recieved: Ended.
+2015-09-14 18:00:44,792 - 15f2e6630d8342e0b5bf8b3ceba25d2f - INFO - Conversation marked as chat.
+2015-09-14 18:00:44,792 - 15f2e6630d8342e0b5bf8b3ceba25d2f - INFO - Received: Hola from 12934778.
+2015-09-14 18:00:45,375 - 15f2e6630d8342e0b5bf8b3ceba25d2f - INFO - Answering: Como estas?.
+2015-09-14 18:00:45,639 - 3325d847d859487aaad8c716c1197466 - INFO - Conversation marked as chat.
+2015-09-14 18:00:45,640 - 3325d847d859487aaad8c716c1197466 - INFO - Received: Hola from 12934778.
+2015-09-14 18:00:46,596 - 3325d847d859487aaad8c716c1197466 - INFO - Answering: Adio..
+2015-09-14 18:00:46,856 - a98141b1532e436bb0782075f5bd1e1b - INFO - Conversation marked as chat.
+2015-09-14 18:00:46,856 - a98141b1532e436bb0782075f5bd1e1b - INFO - Received: Hola from 12934778.
+2015-09-14 18:00:47,611 - a98141b1532e436bb0782075f5bd1e1b - INFO - Answering: Me voy..
+2015-09-14 18:00:47,857 - dc587afdf8724799a2b01fd1899667af - INFO - Conversation marked as chat.
+2015-09-14 18:00:47,858 - dc587afdf8724799a2b01fd1899667af - INFO - Received: Hola from 12934778.
+2015-09-14 18:00:48,792 - dc587afdf8724799a2b01fd1899667af - INFO - Answering: Chau..
+2015-09-14 18:01:16,825 - b93661ac1da74bbe867eb86147984b0c - INFO - Conversation marked as chat.
+2015-09-14 18:01:16,825 - b93661ac1da74bbe867eb86147984b0c - INFO - Received: Hola from 12934778.
+2015-09-14 18:01:17,661 - b93661ac1da74bbe867eb86147984b0c - INFO - Answering: Si, hola. Como estas?.
+2015-09-14 18:01:17,919 - 3b4422ff2d3a484a8fda3fd292ad7463 - INFO - Conversation marked as chat.
+2015-09-14 18:01:17,919 - 3b4422ff2d3a484a8fda3fd292ad7463 - INFO - Received: Hola from 12934778.
+2015-09-14 18:01:46,996 - d23d8d1c00a9435e836b6fc1bf534809 - INFO - Conversation marked as chat.
+2015-09-14 18:01:46,996 - d23d8d1c00a9435e836b6fc1bf534809 - INFO - Received: Hola from 12934778.
+2015-09-14 18:01:48,023 - d23d8d1c00a9435e836b6fc1bf534809 - INFO - Answering: Halo..
+2015-09-14 18:01:48,286 - d181a2d87e334c2a976a49b91e436561 - INFO - Conversation marked as chat.
+2015-09-14 18:01:48,286 - d181a2d87e334c2a976a49b91e436561 - INFO - Received: Hola from 12934778.
+2015-09-14 18:01:49,828 - d181a2d87e334c2a976a49b91e436561 - INFO - Answering: Halo red..
+2015-09-14 18:01:50,079 - 3f8028acfafa4b2aa1286beb442ef572 - INFO - Conversation marked as chat.
+2015-09-14 18:01:50,079 - 3f8028acfafa4b2aa1286beb442ef572 - INFO - Received: Hola from 12934778.
+2015-09-14 18:02:14,904 - 9db7a29b771d4f6badec278280d2b9df - INFO - Conversation marked as chat.
+2015-09-14 18:02:14,905 - 9db7a29b771d4f6badec278280d2b9df - INFO - Received: Hola from 12934778.
+2015-09-14 18:02:21,016 - cd10b0dde0f2428892558fcf4e6ef500 - INFO - Conversation marked as chat.
+2015-09-14 18:02:21,017 - cd10b0dde0f2428892558fcf4e6ef500 - INFO - Received: Hola from 12934778.
+2015-09-14 18:02:21,307 - cd10b0dde0f2428892558fcf4e6ef500 - INFO - Answering: De onde ers?.
+2015-09-14 18:02:21,552 - b805a35fad75428fbc7ca77ef20e56f4 - INFO - Conversation marked as chat.
+2015-09-14 18:02:21,553 - b805a35fad75428fbc7ca77ef20e56f4 - INFO - Received: Hola from 12934778.
+2015-09-14 18:02:22,335 - b805a35fad75428fbc7ca77ef20e56f4 - INFO - Answering: Eres de ola jajajja..
+2015-09-14 18:02:22,577 - 409affe1a3e6423ab93565a650bd5b09 - INFO - Conversation marked as chat.
+2015-09-14 18:02:22,577 - 409affe1a3e6423ab93565a650bd5b09 - INFO - Received: Hola from 12934778.
+2015-09-14 18:02:23,936 - 409affe1a3e6423ab93565a650bd5b09 - INFO - Answering: Hello!.
+2015-09-14 18:02:35,063 - cdfb0fa75fa146b7aa985e62e893f925 - INFO - Conversation marked as command.
+2015-09-14 18:02:35,063 - cdfb0fa75fa146b7aa985e62e893f925 - INFO - Received: /start from 12934778.
+2015-09-14 18:02:35,317 - cdfb0fa75fa146b7aa985e62e893f925 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:02:35,319 - 84cc12c555b1430f963eaa91eee1477a - INFO - Conversation marked as command.
+2015-09-14 18:02:35,319 - 84cc12c555b1430f963eaa91eee1477a - INFO - Received: /start from 12934778.
+2015-09-14 18:02:35,560 - 84cc12c555b1430f963eaa91eee1477a - INFO - Talk status code recieved: Ended.
+2015-09-14 18:02:53,253 - 0109805c728548d38b5442018949bac5 - INFO - Conversation marked as command.
+2015-09-14 18:02:53,253 - 0109805c728548d38b5442018949bac5 - INFO - Received: /start from 12934778.
+2015-09-14 18:02:53,499 - 0109805c728548d38b5442018949bac5 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:02:53,500 - 4db21e696a874219b2ae7e0bc4090001 - INFO - Conversation marked as command.
+2015-09-14 18:02:53,500 - 4db21e696a874219b2ae7e0bc4090001 - INFO - Received: /start from 12934778.
+2015-09-14 18:02:53,780 - 4db21e696a874219b2ae7e0bc4090001 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:05:59,517 - dfbca155b2144e28acf07ed23c402acc - INFO - Conversation marked as chat.
+2015-09-14 18:05:59,517 - dfbca155b2144e28acf07ed23c402acc - INFO - Received: Hola from 12934778.
+2015-09-14 18:06:05,128 - dfbca155b2144e28acf07ed23c402acc - INFO - Answering: &iquest;Qu&eacute; tal?.
+2015-09-14 18:06:05,399 - 0b90eef84ef243a19766c466ed29ff5f - INFO - Conversation marked as chat.
+2015-09-14 18:06:05,399 - 0b90eef84ef243a19766c466ed29ff5f - INFO - Received: Hola from 12934778.
+2015-09-14 18:06:05,849 - 0b90eef84ef243a19766c466ed29ff5f - INFO - Answering: Todo bien?.
+2015-09-14 18:06:09,791 - aa7ab18b7d2d48629f118521b48c09a3 - INFO - Conversation marked as chat.
+2015-09-14 18:06:09,791 - aa7ab18b7d2d48629f118521b48c09a3 - INFO - Received: Hola from 12934778.
+2015-09-14 18:06:10,133 - aa7ab18b7d2d48629f118521b48c09a3 - INFO - Answering: Quien sos?.
+2015-09-14 18:06:24,095 - a519138191ae4a5788e651fccd4a43a6 - INFO - Conversation marked as command.
+2015-09-14 18:06:24,096 - baf4b63f7bb74984818b6c69174a2425 - INFO - Conversation marked as command.
+2015-09-14 18:06:24,096 - 79bc8b5efbef4269be1ca95a11cd3632 - INFO - Conversation marked as command.
+2015-09-14 18:06:24,097 - a519138191ae4a5788e651fccd4a43a6 - INFO - Received: /start from 12934778.
+2015-09-14 18:06:24,097 - baf4b63f7bb74984818b6c69174a2425 - INFO - Received: /start from 12934778.
+2015-09-14 18:06:24,098 - 79bc8b5efbef4269be1ca95a11cd3632 - INFO - Received: /start from 12934778.
+2015-09-14 18:06:24,348 - baf4b63f7bb74984818b6c69174a2425 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:06:24,351 - a519138191ae4a5788e651fccd4a43a6 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:06:24,380 - 79bc8b5efbef4269be1ca95a11cd3632 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:11:29,144 - 5f91350f2fa449668ee8083d44f7c01e - INFO - Conversation marked as chat.
+2015-09-14 18:11:29,144 - 5f91350f2fa449668ee8083d44f7c01e - INFO - Received: /getMe from 12934778.
+2015-09-14 18:11:29,411 - 5f91350f2fa449668ee8083d44f7c01e - INFO - Answering: Get?.
+2015-09-14 18:11:43,134 - 81c1c3e7fa764216ad6cc740594a003b - INFO - Conversation marked as command.
+2015-09-14 18:11:43,134 - 81c1c3e7fa764216ad6cc740594a003b - INFO - Received: /addMe from 12934778.
+2015-09-14 18:12:02,855 - 6c2ec2d8603d48e09df6acf88bed9c8c - INFO - Conversation marked as command.
+2015-09-14 18:12:02,855 - 6c2ec2d8603d48e09df6acf88bed9c8c - INFO - Received: /addMe from 12934778.
+2015-09-14 18:12:32,723 - 1dfc1096681d4f31a4bf47a4a1db1dca - INFO - Conversation marked as command.
+2015-09-14 18:12:32,724 - 1dfc1096681d4f31a4bf47a4a1db1dca - INFO - Received: /addMe from 12934778.
+2015-09-14 18:12:32,976 - 1dfc1096681d4f31a4bf47a4a1db1dca - INFO - Talk status code recieved: Ended.
+2015-09-14 18:12:36,683 - 7fb88436a2a1427e84da90414620d70c - INFO - Conversation marked as command.
+2015-09-14 18:12:36,683 - 7fb88436a2a1427e84da90414620d70c - INFO - Received: /addMe from 12934778.
+2015-09-14 18:12:36,954 - 7fb88436a2a1427e84da90414620d70c - INFO - Talk status code recieved: Ended.
+2015-09-14 18:13:13,015 - ab34beb645a44e57ad0a463b230f09f7 - INFO - Conversation marked as command.
+2015-09-14 18:13:13,016 - ab34beb645a44e57ad0a463b230f09f7 - INFO - Received: /addMe from 12934778.
+2015-09-14 18:13:13,263 - ab34beb645a44e57ad0a463b230f09f7 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:13:16,954 - 0ba9960f5fa3421b899c1d55bbaee552 - INFO - Conversation marked as command.
+2015-09-14 18:13:16,954 - 0ba9960f5fa3421b899c1d55bbaee552 - INFO - Received: /addMe from 12934778.
+2015-09-14 18:13:17,210 - 0ba9960f5fa3421b899c1d55bbaee552 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:13:27,382 - 34ea7111d42047ec9c9c612a9f9213f6 - INFO - Conversation marked as command.
+2015-09-14 18:13:27,382 - 34ea7111d42047ec9c9c612a9f9213f6 - INFO - Received: /addMe from 12934778.
+2015-09-14 18:13:27,646 - 34ea7111d42047ec9c9c612a9f9213f6 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:13:31,365 - 8c9f6eb16a43467d9de5d31d8d586fda - INFO - Conversation marked as command.
+2015-09-14 18:13:31,365 - 8c9f6eb16a43467d9de5d31d8d586fda - INFO - Received: /addMe from 12934778.
+2015-09-14 18:13:31,625 - 8c9f6eb16a43467d9de5d31d8d586fda - INFO - Talk status code recieved: Ended.
+2015-09-14 18:15:06,179 - 85a59218f9034f9fb689ce419deaeaf1 - INFO - Conversation marked as command.
+2015-09-14 18:15:06,180 - 85a59218f9034f9fb689ce419deaeaf1 - INFO - Received: /test from 12934778.
+2015-09-14 18:15:06,180 - fb318c0cc13c4a6ea581bf197b826bfb - INFO - Conversation marked as command.
+2015-09-14 18:15:06,180 - fb318c0cc13c4a6ea581bf197b826bfb - INFO - Received:  from 12934778.
+2015-09-14 18:15:06,432 - fb318c0cc13c4a6ea581bf197b826bfb - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:15:06,433 - 4cd4a45b051b491d98abdfe768daea16 - INFO - Conversation marked as command.
+2015-09-14 18:15:06,433 - 4cd4a45b051b491d98abdfe768daea16 - INFO - Received:  from 12934778.
+2015-09-14 18:15:06,679 - 4cd4a45b051b491d98abdfe768daea16 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:15:06,679 - 85a59218f9034f9fb689ce419deaeaf1 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:15:10,385 - fd7f63a4a6404ae28e8689287741e201 - INFO - Conversation marked as chat.
+2015-09-14 18:15:10,386 - fd7f63a4a6404ae28e8689287741e201 - INFO - Received: Adios from 12934778.
+2015-09-14 18:15:11,205 - fd7f63a4a6404ae28e8689287741e201 - INFO - Answering: Adiositio..
+2015-09-14 18:15:18,416 - e711537a50954f4b9df8be8574af5eae - INFO - Conversation marked as chat.
+2015-09-14 18:15:18,417 - e711537a50954f4b9df8be8574af5eae - INFO - Received: f from 12934778.
+2015-09-14 18:15:18,708 - e711537a50954f4b9df8be8574af5eae - INFO - Answering: Pico..
+2015-09-14 18:15:29,171 - 9d15f1196c1c4ee78e8cfe4746cf5b92 - INFO - Conversation marked as chat.
+2015-09-14 18:15:29,171 - 9d15f1196c1c4ee78e8cfe4746cf5b92 - INFO - Received: s from 12934778.
+2015-09-14 18:15:40,053 - 9d15f1196c1c4ee78e8cfe4746cf5b92 - INFO - Answering: Yes..
+2015-09-14 18:15:50,455 - 8650641d886b4393b772b57d3677950e - INFO - Conversation marked as chat.
+2015-09-14 18:15:50,455 - 8650641d886b4393b772b57d3677950e - INFO - Received: sdf from 12934778.
+2015-09-14 18:16:00,991 - 8650641d886b4393b772b57d3677950e - INFO - Answering: Cool..
+2015-09-14 18:16:29,327 - c40145668e13463dac3ad45533485b28 - INFO - Conversation marked as chat.
+2015-09-14 18:16:29,328 - c40145668e13463dac3ad45533485b28 - INFO - Received: sdf from 12934778.
+2015-09-14 18:16:37,966 - c40145668e13463dac3ad45533485b28 - INFO - Answering: Laat maar..
+2015-09-14 18:16:48,465 - 121aef3c7c6846e99c24a1bda6e0d59c - INFO - Conversation marked as command.
+2015-09-14 18:16:48,466 - 121aef3c7c6846e99c24a1bda6e0d59c - INFO - Received: /test from 12934778.
+2015-09-14 18:16:48,466 - 17f906985f1f45999dcb4aea2e8a12f1 - INFO - Conversation marked as command.
+2015-09-14 18:16:48,466 - 17f906985f1f45999dcb4aea2e8a12f1 - INFO - Received:  from 12934778.
+2015-09-14 18:16:48,727 - 17f906985f1f45999dcb4aea2e8a12f1 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:16:48,728 - 624f725ee2a34232ba5daf2e0229e99c - INFO - Conversation marked as command.
+2015-09-14 18:16:48,728 - 624f725ee2a34232ba5daf2e0229e99c - INFO - Received:  from 12934778.
+2015-09-14 18:16:48,994 - 624f725ee2a34232ba5daf2e0229e99c - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:16:48,994 - 121aef3c7c6846e99c24a1bda6e0d59c - INFO - Talk status code recieved: Ended.
+2015-09-14 18:16:56,559 - 30f97e8717824ec9a8d63bcb4035e66d - INFO - Conversation marked as chat.
+2015-09-14 18:16:56,560 - 30f97e8717824ec9a8d63bcb4035e66d - INFO - Received: Adios from 12934778.
+2015-09-14 18:17:03,231 - 30f97e8717824ec9a8d63bcb4035e66d - INFO - Answering: Adios!!!!!!!!!!!.
+2015-09-14 18:17:11,825 - e597107c0d7044f586d5916eb6523cc2 - INFO - Conversation marked as chat.
+2015-09-14 18:17:11,825 - e597107c0d7044f586d5916eb6523cc2 - INFO - Received: sd from 12934778.
+2015-09-14 18:17:12,300 - e597107c0d7044f586d5916eb6523cc2 - INFO - Answering: Voy a coger adios..
+2015-09-14 18:18:12,982 - 6bea9c0ba89040088cf894bbafd94380 - INFO - Conversation marked as chat.
+2015-09-14 18:18:12,982 - 6bea9c0ba89040088cf894bbafd94380 - INFO - Received: sd from 12934778.
+2015-09-14 18:18:14,108 - 6bea9c0ba89040088cf894bbafd94380 - INFO - Answering: 2D masz na imie..
+2015-09-14 18:18:18,088 - 86aab8a1d03a4a44ae6c9fb8beff5ce7 - INFO - Conversation marked as command.
+2015-09-14 18:18:18,088 - 86aab8a1d03a4a44ae6c9fb8beff5ce7 - INFO - Received: /test from 12934778.
+2015-09-14 18:18:18,088 - 419de878bf6d4657a03b701202feedbd - INFO - Conversation marked as command.
+2015-09-14 18:18:18,088 - 419de878bf6d4657a03b701202feedbd - INFO - Received:  from 12934778.
+2015-09-14 18:18:18,348 - 419de878bf6d4657a03b701202feedbd - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:18:18,348 - c6a931812c684f8dae4c88f789c71b40 - INFO - Conversation marked as command.
+2015-09-14 18:18:18,348 - c6a931812c684f8dae4c88f789c71b40 - INFO - Received:  from 12934778.
+2015-09-14 18:18:18,599 - c6a931812c684f8dae4c88f789c71b40 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:18:18,599 - 86aab8a1d03a4a44ae6c9fb8beff5ce7 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:18:22,455 - 419de878bf6d4657a03b701202feedbd - INFO - Received: No me gustas from 12934778.
+2015-09-14 18:18:22,982 - 419de878bf6d4657a03b701202feedbd - INFO - Talk status code recieved: Ended.
+2015-09-14 18:18:29,999 - c6a931812c684f8dae4c88f789c71b40 - INFO - Received: Ahora me gustas from 12934778.
+2015-09-14 18:18:30,262 - c6a931812c684f8dae4c88f789c71b40 - INFO - Talk status code recieved: Same_phase.
+2015-09-14 18:18:37,187 - c6a931812c684f8dae4c88f789c71b40 - INFO - Received: No me gustas from 12934778.
+2015-09-14 18:18:37,739 - c6a931812c684f8dae4c88f789c71b40 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:18:51,262 - 7c9c40cc3b7c40a580124bbf4ac237df - INFO - Conversation marked as command.
+2015-09-14 18:18:51,262 - 7c9c40cc3b7c40a580124bbf4ac237df - INFO - Received: /test from 12934778.
+2015-09-14 18:18:51,262 - 91a0da2311c145359ef23bc9be0969d5 - INFO - Conversation marked as command.
+2015-09-14 18:18:51,263 - 91a0da2311c145359ef23bc9be0969d5 - INFO - Received:  from 12934778.
+2015-09-14 18:18:51,526 - 91a0da2311c145359ef23bc9be0969d5 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:18:51,526 - 7c9c40cc3b7c40a580124bbf4ac237df - INFO - Talk status code recieved: Ended.
+2015-09-14 18:18:55,219 - 91a0da2311c145359ef23bc9be0969d5 - INFO - Received: eres fea from 12934778.
+2015-09-14 18:18:55,736 - 91a0da2311c145359ef23bc9be0969d5 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:21:12,446 - b6ea2eb25d7b492893807c4e2a747403 - INFO - Conversation marked as command.
+2015-09-14 18:21:12,447 - b6ea2eb25d7b492893807c4e2a747403 - INFO - Received: /addQuestion ¿Cuantas pelotas hay? from 12934778.
+2015-09-14 18:21:12,715 - b6ea2eb25d7b492893807c4e2a747403 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:21:16,390 - b6ea2eb25d7b492893807c4e2a747403 - INFO - Received: 1 from 12934778.
+2015-09-14 18:21:16,906 - b6ea2eb25d7b492893807c4e2a747403 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:21:20,597 - b6ea2eb25d7b492893807c4e2a747403 - INFO - Received: 2 from 12934778.
+2015-09-14 18:21:21,119 - b6ea2eb25d7b492893807c4e2a747403 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:21:25,973 - b6ea2eb25d7b492893807c4e2a747403 - INFO - Received: 3 /end from 12934778.
+2015-09-14 18:21:26,500 - b6ea2eb25d7b492893807c4e2a747403 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:22:22,583 - 6161b4f2602542ef9dafb165c5168b24 - INFO - Conversation marked as command.
+2015-09-14 18:22:22,583 - 6161b4f2602542ef9dafb165c5168b24 - INFO - Received: /test from 12934778.
+2015-09-14 18:22:22,584 - e891004b82264f509a6d1d38c806afb9 - INFO - Conversation marked as command.
+2015-09-14 18:22:22,584 - e891004b82264f509a6d1d38c806afb9 - INFO - Received:  from 12934778.
+2015-09-14 18:22:22,837 - e891004b82264f509a6d1d38c806afb9 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:22:22,837 - 6161b4f2602542ef9dafb165c5168b24 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:22:46,019 - e891004b82264f509a6d1d38c806afb9 - INFO - Received: 1 from 12934778.
+2015-09-14 18:22:46,548 - e891004b82264f509a6d1d38c806afb9 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:23:06,462 - 253e3e4a389742fb97916d2795b026ca - INFO - Conversation marked as command.
+2015-09-14 18:23:06,462 - 253e3e4a389742fb97916d2795b026ca - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:23:06,715 - 253e3e4a389742fb97916d2795b026ca - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:23:10,426 - 253e3e4a389742fb97916d2795b026ca - INFO - Received: 1 from 12934778.
+2015-09-14 18:23:10,951 - 253e3e4a389742fb97916d2795b026ca - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:23:10,952 - 253e3e4a389742fb97916d2795b026ca - INFO - Received: 2 from 12934778.
+2015-09-14 18:23:11,511 - 253e3e4a389742fb97916d2795b026ca - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:23:11,511 - 253e3e4a389742fb97916d2795b026ca - INFO - Received: 3 from 12934778.
+2015-09-14 18:23:12,018 - 253e3e4a389742fb97916d2795b026ca - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:23:18,953 - 253e3e4a389742fb97916d2795b026ca - INFO - Received: 4 /end from 12934778.
+2015-09-14 18:23:19,443 - 253e3e4a389742fb97916d2795b026ca - INFO - Talk status code recieved: Ended.
+2015-09-14 18:23:49,626 - 94d6a8abca8b4b7c9452fa267682e79e - INFO - Conversation marked as command.
+2015-09-14 18:23:49,627 - 94d6a8abca8b4b7c9452fa267682e79e - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:24:29,782 - 3c694620866c4df1bcc99f52aa32138a - INFO - Conversation marked as command.
+2015-09-14 18:24:29,782 - 3c694620866c4df1bcc99f52aa32138a - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:24:30,045 - 3c694620866c4df1bcc99f52aa32138a - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:24:33,732 - 3c694620866c4df1bcc99f52aa32138a - INFO - Received: 1 from 12934778.
+2015-09-14 18:24:34,268 - 3c694620866c4df1bcc99f52aa32138a - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:24:34,269 - 3c694620866c4df1bcc99f52aa32138a - INFO - Received: 2 from 12934778.
+2015-09-14 18:24:34,777 - 3c694620866c4df1bcc99f52aa32138a - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:24:34,778 - 3c694620866c4df1bcc99f52aa32138a - INFO - Received: 3 from 12934778.
+2015-09-14 18:24:35,282 - 3c694620866c4df1bcc99f52aa32138a - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:24:35,282 - 3c694620866c4df1bcc99f52aa32138a - INFO - Received: 4 from 12934778.
+2015-09-14 18:24:35,797 - 3c694620866c4df1bcc99f52aa32138a - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:24:45,958 - 3c694620866c4df1bcc99f52aa32138a - INFO - Received: 5 /end from 12934778.
+2015-09-14 18:24:46,446 - 3c694620866c4df1bcc99f52aa32138a - INFO - Talk status code recieved: Ended.
+2015-09-14 18:25:19,265 - 9d2c8f9e634d437ea8e2c0302104157b - INFO - Conversation marked as chat.
+2015-09-14 18:25:19,265 - 9d2c8f9e634d437ea8e2c0302104157b - INFO - Received: 5 /end from 12934778.
+2015-09-14 18:25:19,454 - 9d2c8f9e634d437ea8e2c0302104157b - INFO - Answering: 
+Surprise your friends! Clevermessage replies to your SMS messages!.
+2015-09-14 18:25:26,649 - 702275af93794963b7596ea7592038d6 - INFO - Conversation marked as command.
+2015-09-14 18:25:26,650 - 702275af93794963b7596ea7592038d6 - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:25:26,958 - 702275af93794963b7596ea7592038d6 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:25:33,914 - 702275af93794963b7596ea7592038d6 - INFO - Received: 1 from 12934778.
+2015-09-14 18:25:34,419 - 702275af93794963b7596ea7592038d6 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:25:34,420 - 702275af93794963b7596ea7592038d6 - INFO - Received: 2 from 12934778.
+2015-09-14 18:25:34,910 - 702275af93794963b7596ea7592038d6 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:25:34,911 - 702275af93794963b7596ea7592038d6 - INFO - Received: 3 from 12934778.
+2015-09-14 18:25:35,395 - 702275af93794963b7596ea7592038d6 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:25:35,396 - 702275af93794963b7596ea7592038d6 - INFO - Received: 4 from 12934778.
+2015-09-14 18:25:35,897 - 702275af93794963b7596ea7592038d6 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:25:39,591 - 702275af93794963b7596ea7592038d6 - INFO - Received: 5 /end from 12934778.
+2015-09-14 18:25:40,126 - 702275af93794963b7596ea7592038d6 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:26:23,548 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Conversation marked as command.
+2015-09-14 18:26:23,548 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:26:23,796 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:26:27,494 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Received: 1 from 12934778.
+2015-09-14 18:26:28,000 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:26:28,001 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Received: 2 from 12934778.
+2015-09-14 18:26:28,524 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:26:28,525 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Received: 3 from 12934778.
+2015-09-14 18:26:29,047 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:26:29,047 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Received: 4 from 12934778.
+2015-09-14 18:26:29,551 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:26:33,242 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Received: 5 /end from 12934778.
+2015-09-14 18:26:33,767 - 2c848d9323fe4e199608af3cc2e11f38 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:28:34,635 - eb406a9d972345379f71b40ed2ed472f - INFO - Conversation marked as command.
+2015-09-14 18:28:34,636 - eb406a9d972345379f71b40ed2ed472f - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:28:34,898 - eb406a9d972345379f71b40ed2ed472f - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:28:38,606 - eb406a9d972345379f71b40ed2ed472f - INFO - Received: 1 from 12934778.
+2015-09-14 18:28:39,104 - eb406a9d972345379f71b40ed2ed472f - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:28:39,104 - eb406a9d972345379f71b40ed2ed472f - INFO - Received: 2 from 12934778.
+2015-09-14 18:28:39,606 - eb406a9d972345379f71b40ed2ed472f - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:28:39,607 - eb406a9d972345379f71b40ed2ed472f - INFO - Received: 3 from 12934778.
+2015-09-14 18:28:40,130 - eb406a9d972345379f71b40ed2ed472f - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:28:43,818 - eb406a9d972345379f71b40ed2ed472f - INFO - Received: 4 .end from 12934778.
+2015-09-14 18:28:44,331 - eb406a9d972345379f71b40ed2ed472f - INFO - Talk status code recieved: Ended.
+2015-09-14 18:28:51,275 - 199884bb77ed44c99cd4f8a5e8edfbd0 - INFO - Conversation marked as command.
+2015-09-14 18:28:51,275 - 199884bb77ed44c99cd4f8a5e8edfbd0 - INFO - Received: /test from 12934778.
+2015-09-14 18:28:51,276 - a02eca70a1694772b2a7ea584500a9ed - INFO - Conversation marked as command.
+2015-09-14 18:28:51,276 - a02eca70a1694772b2a7ea584500a9ed - INFO - Received:  from 12934778.
+2015-09-14 18:28:51,533 - a02eca70a1694772b2a7ea584500a9ed - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:28:51,533 - 199884bb77ed44c99cd4f8a5e8edfbd0 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:28:55,259 - a02eca70a1694772b2a7ea584500a9ed - INFO - Received: 4 from 12934778.
+2015-09-14 18:28:55,519 - a02eca70a1694772b2a7ea584500a9ed - INFO - Talk status code recieved: Same_phase.
+2015-09-14 18:29:05,693 - a02eca70a1694772b2a7ea584500a9ed - INFO - Received: 1 from 12934778.
+2015-09-14 18:29:06,186 - a02eca70a1694772b2a7ea584500a9ed - INFO - Talk status code recieved: Ended.
+2015-09-14 18:29:22,834 - fd3f8db6b4064f9ab8266825118a66b1 - INFO - Conversation marked as command.
+2015-09-14 18:29:22,835 - fd3f8db6b4064f9ab8266825118a66b1 - INFO - Received: /test from 12934778.
+2015-09-14 18:29:22,835 - b6ee05b718eb465d9c333fc8adcf80fc - INFO - Conversation marked as command.
+2015-09-14 18:29:22,835 - b6ee05b718eb465d9c333fc8adcf80fc - INFO - Received:  from 12934778.
+2015-09-14 18:29:23,089 - b6ee05b718eb465d9c333fc8adcf80fc - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:29:23,089 - fd3f8db6b4064f9ab8266825118a66b1 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:29:26,790 - b6ee05b718eb465d9c333fc8adcf80fc - INFO - Received: 3 from 12934778.
+2015-09-14 18:29:27,311 - b6ee05b718eb465d9c333fc8adcf80fc - INFO - Talk status code recieved: Ended.
+2015-09-14 18:29:31,015 - f1a6da2d4ec4499485d65de313238d7b - INFO - Conversation marked as command.
+2015-09-14 18:29:31,016 - f1a6da2d4ec4499485d65de313238d7b - INFO - Received: /test from 12934778.
+2015-09-14 18:29:31,016 - 37ecdf61234640c29d5a0285f809fd13 - INFO - Conversation marked as command.
+2015-09-14 18:29:31,016 - 37ecdf61234640c29d5a0285f809fd13 - INFO - Received:  from 12934778.
+2015-09-14 18:29:31,271 - 37ecdf61234640c29d5a0285f809fd13 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:29:31,271 - f1a6da2d4ec4499485d65de313238d7b - INFO - Talk status code recieved: Ended.
+2015-09-14 18:29:34,944 - 37ecdf61234640c29d5a0285f809fd13 - INFO - Received: 4 from 12934778.
+2015-09-14 18:29:35,194 - 37ecdf61234640c29d5a0285f809fd13 - INFO - Talk status code recieved: Same_phase.
+2015-09-14 18:30:23,193 - 663f2096470243759a0705436665e854 - INFO - Conversation marked as command.
+2015-09-14 18:30:23,193 - 663f2096470243759a0705436665e854 - INFO - Received: /test from 12934778.
+2015-09-14 18:30:23,194 - 960d9b342f894a8eb4c65e49aa0d24e9 - INFO - Conversation marked as command.
+2015-09-14 18:30:23,194 - 960d9b342f894a8eb4c65e49aa0d24e9 - INFO - Received:  from 12934778.
+2015-09-14 18:30:23,433 - 960d9b342f894a8eb4c65e49aa0d24e9 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:30:23,433 - 663f2096470243759a0705436665e854 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:31:15,635 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Conversation marked as command.
+2015-09-14 18:31:15,635 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:31:15,903 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:15,903 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: 1 from 12934778.
+2015-09-14 18:31:16,425 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:20,115 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: 2 from 12934778.
+2015-09-14 18:31:20,623 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:20,624 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: 3 from 12934778.
+2015-09-14 18:31:21,131 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:21,132 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: 4 from 12934778.
+2015-09-14 18:31:21,655 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:26,472 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: 5 from 12934778.
+2015-09-14 18:31:26,977 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:26,977 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: 6 from 12934778.
+2015-09-14 18:31:27,501 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:27,502 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: 7 from 12934778.
+2015-09-14 18:31:28,002 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:28,002 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: 8 from 12934778.
+2015-09-14 18:31:28,504 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:28,504 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Received: 9.end from 12934778.
+2015-09-14 18:31:29,005 - ea9a3d3e92b643c6bec59d854c7d5b20 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:31:32,680 - afa98be9e51c4d65bb4e0cb3720a9e32 - INFO - Conversation marked as command.
+2015-09-14 18:31:32,681 - afa98be9e51c4d65bb4e0cb3720a9e32 - INFO - Received: /test from 12934778.
+2015-09-14 18:31:32,681 - 39ae346996614a589d43d564065eaa82 - INFO - Conversation marked as command.
+2015-09-14 18:31:32,681 - 39ae346996614a589d43d564065eaa82 - INFO - Received:  from 12934778.
+2015-09-14 18:31:32,939 - 39ae346996614a589d43d564065eaa82 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:31:32,939 - afa98be9e51c4d65bb4e0cb3720a9e32 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:31:36,650 - 39ae346996614a589d43d564065eaa82 - INFO - Received: 9 from 12934778.
+2015-09-14 18:31:37,143 - 39ae346996614a589d43d564065eaa82 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:32:00,236 - ae5de8a91d364abf8bc6263ee5c69917 - INFO - Conversation marked as command.
+2015-09-14 18:32:00,237 - ae5de8a91d364abf8bc6263ee5c69917 - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:32:00,506 - ae5de8a91d364abf8bc6263ee5c69917 - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:32:35,390 - a4bfeec7d8104be297f5e4b6230c83fc - INFO - Conversation marked as command.
+2015-09-14 18:32:35,391 - a4bfeec7d8104be297f5e4b6230c83fc - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:33:46,169 - 508ed019b22f4b7db26faeed55d3694c - INFO - Conversation marked as command.
+2015-09-14 18:33:46,170 - 508ed019b22f4b7db26faeed55d3694c - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:33:46,419 - 508ed019b22f4b7db26faeed55d3694c - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:13,000 - 4b420c199bd04c07981568c3b495b3df - INFO - Conversation marked as command.
+2015-09-14 18:34:13,002 - 4b420c199bd04c07981568c3b495b3df - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:34:13,265 - 4b420c199bd04c07981568c3b495b3df - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:13,265 - 4b420c199bd04c07981568c3b495b3df - INFO - Received: 1 from 12934778.
+2015-09-14 18:34:13,791 - 4b420c199bd04c07981568c3b495b3df - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:13,791 - 4b420c199bd04c07981568c3b495b3df - INFO - Received: 2 from 12934778.
+2015-09-14 18:34:14,305 - 4b420c199bd04c07981568c3b495b3df - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:14,305 - 4b420c199bd04c07981568c3b495b3df - INFO - Received: 3 from 12934778.
+2015-09-14 18:34:14,810 - 4b420c199bd04c07981568c3b495b3df - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:18,500 - 4b420c199bd04c07981568c3b495b3df - INFO - Received: 4.end from 12934778.
+2015-09-14 18:34:19,015 - 4b420c199bd04c07981568c3b495b3df - INFO - Talk status code recieved: Ended.
+2015-09-14 18:34:19,016 - 7f31c5be8b634ae58eea53e33cfa2844 - INFO - Conversation marked as command.
+2015-09-14 18:34:19,017 - 7f31c5be8b634ae58eea53e33cfa2844 - INFO - Received: /test from 12934778.
+2015-09-14 18:34:19,017 - 453a07637d394dc5b5daf5a5ff3885ef - INFO - Conversation marked as command.
+2015-09-14 18:34:19,017 - 453a07637d394dc5b5daf5a5ff3885ef - INFO - Received:  from 12934778.
+2015-09-14 18:34:19,272 - 453a07637d394dc5b5daf5a5ff3885ef - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:19,272 - 7f31c5be8b634ae58eea53e33cfa2844 - INFO - Talk status code recieved: Ended.
+2015-09-14 18:34:22,988 - 453a07637d394dc5b5daf5a5ff3885ef - INFO - Received: 2 from 12934778.
+2015-09-14 18:34:23,498 - 453a07637d394dc5b5daf5a5ff3885ef - INFO - Talk status code recieved: Ended.
+2015-09-14 18:34:46,578 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Conversation marked as command.
+2015-09-14 18:34:46,578 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Received: /addQuestion from 12934778.
+2015-09-14 18:34:46,841 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:46,841 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Received: 1 from 12934778.
+2015-09-14 18:34:47,348 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:47,349 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Received: 2 from 12934778.
+2015-09-14 18:34:47,859 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:47,860 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Received: 3 from 12934778.
+2015-09-14 18:34:48,350 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Talk status code recieved: Next_phase.
+2015-09-14 18:34:48,351 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Received: 4.end from 12934778.
+2015-09-14 18:34:48,861 - d4314db5fba24d8ca906b5e0bf405c9b - INFO - Talk status code recieved: Ended.

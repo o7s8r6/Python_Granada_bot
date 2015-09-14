@@ -4,27 +4,42 @@ import logging
 import telegram
 import cleverbot
 import string
-import mailer, smtplib
 import tools
 import time
 import os
 import threading
 import uuid
-import subprocess
-
+import bot_commands
+from collections import Counter
 
 #Create logger for module
 module_logger = logging.getLogger('Python_granada_bot.bot_library')
 
 class MasterBot(object):
+    """This class manages the bot at a local level. A brief list of taks of this class is:
+    -Echo to the server for updates.
+    -Manage the creation and deletion of new and old conversations.
+    -Organize conversations in new and old depending of the status of the conversation list.
+    -Update the status of the conversation if needed (parallelization)
 
-    def __init__(self):
 
+    When instantiate the class you must provide nothing. ToDo: Provide the
+
+    Properties:
+
+        bot -> The telegram API high level wrapper (object of class telegram.bot)
+        command_library -> An instantiation of the command library class (mainly a dict with the functions).
+        chat_engine -> The Markovian cleverbot chat engine class (object).
+    """
+
+    def __init__(self,bot_key):
+
+        # Create custom logger to the master to keep track of general things in a master log.
         self.logger = logging.getLogger('Python_granada_bot.bot_library.MasterBot')
         self.logger.debug('Instanciating class Masterbot.')
-
-        self.bot = telegram.Bot('126412682:AAEABq7JHJVRJ2lv4YqxVYWiwlWko4QgB_g')
-        self.command_library = BotCommands()
+        #Instantiate the telegram bot
+        self.bot = telegram.Bot(bot_key)
+        #Create empty list of active conversations
         self.active_conversations = []
 
         try:
@@ -36,6 +51,17 @@ class MasterBot(object):
 
 
     def echo(self):
+        """
+        This method queries the server for updates. In the case that we find updatesm then we
+        start n threads (where n is the number of updates to process) to manage each one).
+
+        When each thread is started, we increase the update_number, so when we query the server again
+        the server will know that we are done with the processed updates.
+
+        At the end of each update group, we wait for all threads to end and repeat.
+
+        :return: Nothing
+        """
 
         #Get number of new updates
         num_updates = len(self.bot.getUpdates(offset=self.last_update_ID))
@@ -45,22 +71,68 @@ class MasterBot(object):
 
             self.logger.debug('Received '+str(num_updates)+' messages to process.')
 
-            # Bucle para gestionar cada una de las updates que tenemos
-            update_num=1
+            # To avoid problems with sequenciality, if there is more that one message of the same user,
+            # manage the updates in serial mode, if not, run in parallel.
+
+            #Initialize list of ids for the users
+            list_of_ids=[]
+
+            # Loop over the updates to get the ID's and then construct a dictionary using Counter
             for update in self.bot.getUpdates(offset=self.last_update_ID):
+                list_of_ids.append(update.message.chat_id)
+            list_of_ids=Counter(list_of_ids)
 
-                #Paralelizing threads Good thing?
-                thr=threading.Thread(target=self.process_update, args=(update,update_num), kwargs={})
-                thr.start()
-                update_num =  update_num +1
-                self.last_update_ID = update.update_id + 1
+            #If we have more than one message for the same user
+            if any([item > 1 for item in list_of_ids.values()]):
+
+                self.logger.debug('Processing updates in serial.')
+                update_num=1
+                # Bucle para gestionar cada una de las updates que tenemos
+                for update in self.bot.getUpdates(offset=self.last_update_ID):
+
+                    self.process_update(update=update,update_num=update_num)
+                    update_num =  update_num +1
+                    self.last_update_ID = update.update_id + 1
+
+            #If we NOT have more than one message for the same user
+            else:
+                self.logger.debug('Processing updates in parallel.')
+                update_num=1
+                # Bucle para gestionar cada una de las updates que tenemos
+                for update in self.bot.getUpdates(offset=self.last_update_ID):
+
+                    #Paralelizing threads
+                    thr=threading.Thread(target=self.process_update, args=(update,update_num), kwargs={})
+                    thr.start()
+                    update_num =  update_num +1
+                    self.last_update_ID = update.update_id + 1
 
 
-            thr.join()  # This will wait until the last one is done! :)
+                thr.join()  # This will wait until the last one is done! :)
 
 
 
     def process_update(self,update,update_num):
+
+        """
+        This method process each update. The tasks are organisez as follows:
+
+            1) Check if the message is text, if not, send a error message to the user.
+            2) If is text:
+                3) Look in the conversation list to see if we have already a conversation pending with the user
+                    3.1) If we have a conversation, call the ManageUpdate method in the old conversation and mark
+                         the need_for_new_conversation flag False.
+                    3.2) If wee do not find and old conversation (the need_for_new_conversation flag is True) create
+                         a new conversation and call the ManageUpdate method in it.
+            4) Look for ended conversations in the list and delete them. -> This must be done here because as the
+               updates run in parallel we need to delete old conversation to avoid the case when for updating a
+               conversation we must look up in the list for active conversations and find some of them that are ended.
+
+
+        :param update: Each (JSON) update to process (property of telegram bot class). - bot.getUpdates property
+        :param update_num: The update number in the update group (for logger pourposes) - Integer
+        :return: Nothing
+        """
 
         self.logger.info('Analizing update '+str(update_num)+'.')
         # Cogemos el chat_id de la conversacion y el mensaje
@@ -69,21 +141,23 @@ class MasterBot(object):
 
         if (message): # If the message is made out of text, we can answer it
             need_for_new_conversation = True
-
             for conversation in self.active_conversations:
                 if conversation.chatID == chat_id:
                     self.logger.info('The message is part of an old conversation')
                     need_for_new_conversation = False
                     self.logger.info('Updating the status of the conversation.')
-                    conversation.ManageUpdate(self.bot,chat_id,message,self.chat_engine)
+                    conversation.ManageUpdate(bot=self.bot,chat_ID=chat_id, raw_message=message,
+                                              chat_engine=self.chat_engine,conversation_list=self.active_conversations)
+                    break
 
             if need_for_new_conversation:
                 self.logger.info('Creating new conversation for the message')
-                new_conversation =ActiveConversation(chat_id,message,self.command_library)
+                new_conversation =ActiveConversation(chat_id,message)
                 self.active_conversations.append(  new_conversation  )
                 self.logger.info('There are '+str(len(self.active_conversations))+ ' active conversations')
                 self.logger.info('Updating the status of the conversation.')
-                new_conversation.ManageUpdate(self.bot,chat_id,message,self.chat_engine)
+                new_conversation.ManageUpdate(bot=self.bot,chat_ID=chat_id, raw_message=message,
+                                              chat_engine=self.chat_engine,conversation_list=self.active_conversations)
 
         else: # If is not a text message
             self.bot.sendMessage(chat_id=chat_id,text='Other formats than text are not supported yet')
@@ -97,24 +171,33 @@ class MasterBot(object):
                 self.logger.info('There are '+str(len(self.active_conversations))+ ' active conversations')
 
 
+class ActiveConversation(bot_commands.BotCommands):
+    """
+    This class represents each active conversation. To initialize the class you must provide:
 
-class ActiveConversation(object):
+        -The ChatId representing the userID of the message -> String
+        -The rawmessage to process -> The text message in raw format to process -> String
+    """
+    def __init__(self,chatID,raw_message):
 
-    def __init__(self,chatID,raw_message,bot_commands):
-
-
+        #Instantiate the command library from the parent class with Super!
+        self.commands_dict = super(ActiveConversation, self).get_commands_dict()
+        # Instantiate properties with the ChatId and Message
         self.chatID = chatID
         self.active = True
         self.ActualMessage = raw_message
-
+        #Instantiate phase indicator and get Unique id
         self.conversation_phase = 0 #For multiple-phase conversations
         self.uniqueID = uuid.uuid4().get_hex()
-        newlogger = tools.setup_logger(self.uniqueID,os.path.dirname(os.path.realpath(__file__))+'/logs/'+str(self.chatID)+'.log')
+        #Set conversation logger.
+        newlogger = tools.setup_logger(self.uniqueID,os.path.dirname(os.path.realpath(__file__))
+                                       +'/logs/'+str(self.chatID)+'.log')
         self.logger = logging.getLogger(self.uniqueID)
+        #Set error counter
+        self.errorcounter = 0
+        if self.commandsQ(raw_message):
 
-        if self.commandsQ(raw_message,bot_commands):
-
-            self.function = self.AssignCommand(raw_message,bot_commands)
+            self.function = self.AssignCommand(raw_message)
             self.logger.info('Conversation marked as command.')
             self.function_type = 'BotCommand'
 
@@ -127,7 +210,8 @@ class ActiveConversation(object):
 
         self.cache =[]
 
-    def ManageUpdate(self,bot,chat_ID,raw_message,chat_engine):
+    def ManageUpdate(self,bot,chat_ID,raw_message,chat_engine,conversation_list):
+
 
         self.logger.info('Received: '+raw_message+' from '+str(chat_ID)+'.')
         try:
@@ -151,8 +235,11 @@ class ActiveConversation(object):
                 else:
                     self.args = raw_message
 
-                talk_status, self.cache = self.function(bot,chat_ID,self.args,self.conversation_phase,self.cache)
+                talk_status, self.cache = self.function(bot,chat_ID,self.args,self.conversation_phase,self.cache
+                                                        ,conversation_list)
+
                 self.logger.info('Talk status code recieved: '+talk_status+'.')
+
                 if talk_status == 'Next_phase':
                     is_the_conversation_ended = False
                     self.conversation_phase = self.conversation_phase + 1
@@ -169,249 +256,35 @@ class ActiveConversation(object):
                     self.active = False
 
         except telegram.TelegramError:
-                self.logger.info('Telegram Error. Going to sleep 0.5 second.')
-                time.sleep(4)
+                self.errorcounter += 1
 
-                self.ManageUpdate(bot,chat_ID,raw_message,chat_engine)
+                if self.errorcounter < 5:
+                    self.logger.info('Telegram Error. Going to sleep 4 seconds.')
+                    time.sleep(4)
+                    self.ManageUpdate(bot,chat_ID,raw_message,chat_engine,conversation_list)
+                else:
+
+                    self.active = False
 
 
 
 
-    def commandsQ(self,raw_message,bot_commands):
+    def commandsQ(self,raw_message):
 
         command = raw_message.split(' ')[0]
-        if command in bot_commands.commands_dict: # Si reconocemos el mensaje
+        if command in self.commands_dict: # Si reconocemos el mensaje
             return True
         else:  # Si no reconocemos el mensaje
             return False
 
-    def AssignCommand(self,raw_message,bot_commands):
+    def AssignCommand(self,raw_message):
 
         command = raw_message.split(' ')[0] # Get the /command part of the message
 
-        return bot_commands.commands_dict[command]  # To get the actual command and args
+        return self.commands_dict[command]  # To get the actual command and args
 
 
-class BotCommands(object):
 
-    def __init__ (self):
-
-        self.commands_dict = {'/start': self.start,
-                              '/talk': self.submit_talk,
-                              '/peval': self.python_eval,
-                              '/log': self.get_log,
-                              '/cluster': self.get_cluster_status,
-                              '/sim': self.run_sim}
-    @staticmethod
-    def start(bot,chat_id,args,phase,cache):
-
-        exit = """Available commands:
-            - /start -> muestra este mismo texto.
-            - /peval -> Evalua codigo python.
-            - /log -> Devuelve las n ultimas lineas del log. E.g. /log 5..
-            - /talk -> Permite enviar una propuesta de charla a Python Granada."""
-        bot.sendMessage(chat_id=chat_id,text=exit)
-        return 'Ended',[]
-
-    @staticmethod
-    def submit_talk(bot,chat_id,args,phase,cache):
-
-        if phase == 0: # This is when the command is only /cluster : The first time we visit this
-
-            custom_keyboard = [['Yes', 'No' ]]
-            reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard,resize_keyboard=True,one_time_keyboard=True)
-            bot.sendMessage(chat_id=chat_id, text="Do you want to submit a talk?.", reply_markup=reply_markup)
-
-            return 'Next_phase',[]
-
-        elif phase == 1:
-
-            if args != 'Yes' and args != 'No':
-
-                bot.sendMessage(chat_id=chat_id, text="Please, use the keyboard to answer.")
-
-                return 'Same_phase',[]
-
-            else:
-
-                reply_markup = telegram.ReplyKeyboardHide()
-                bot.sendMessage(chat_id=chat_id, text="Computing your response.....", reply_markup=reply_markup)
-
-                if args == 'Yes' :
-                    bot.sendMessage(chat_id=chat_id, text="Received 'Yes'")
-                    bot.sendMessage(chat_id=chat_id, text="Please, write the title of the talk")
-                    return 'Next_phase',[]
-                else:
-                    bot.sendMessage(chat_id=chat_id, text="Received 'No'")
-                    return 'Ended',[]
-
-        elif phase == 2:
-
-            bot.sendMessage(chat_id=chat_id, text="The title for your talk is: "+args)
-            custom_keyboard = [['Yes', 'No' ]]
-            reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard,resize_keyboard=True,one_time_keyboard=True)
-            bot.sendMessage(chat_id=chat_id, text="Do you want to submit it?.", reply_markup=reply_markup)
-
-            return 'Next_phase',args
-
-        elif phase == 3:
-
-            if args != 'Yes' and args != 'No':
-
-                bot.sendMessage(chat_id=chat_id, text="Please, use the keyboard to answer.")
-
-                return 'Same_phase',cache
-
-            else:
-
-                reply_markup = telegram.ReplyKeyboardHide()
-                bot.sendMessage(chat_id=chat_id, text="Computing your response.....", reply_markup=reply_markup)
-
-                if args == 'Yes' :
-                    bot.sendMessage(chat_id=chat_id, text="Received 'Yes'")
-                    try:
-                        mailer.send_mail('contacto@python-granada.es ',cache)
-                        bot.sendMessage(chat_id=chat_id, text="Ok, talk submitted!")
-                    except smtplib.SMTPAuthenticationError:
-                        bot.sendMessage(chat_id=chat_id, text="Oooops...problem with the mail.")
-                        bot.sendMessage(chat_id=chat_id, text="Please, try it later!")
-
-
-
-                    return 'Ended',[]
-                else:
-                    bot.sendMessage(chat_id=chat_id, text="Received 'No'")
-                    bot.sendMessage(chat_id=chat_id, text="Please, try again using the command /talk")
-                    return 'Ended',[]
-
-    @staticmethod
-    def python_eval(bot,chat_id,args,phase,cache):
-
-        try:
-            evaluation=tools.p_Eval_(args)
-            bot.sendMessage(chat_id=chat_id,text=evaluation)
-
-        except SyntaxError:
-            bot.sendMessage(chat_id=chat_id,text='Error evaluating your command.')
-            bot.sendMessage(chat_id=chat_id,
-            text='''You can use a lot of python commands: All the standard library is available as well as numpy.
-             If you want to use numpy you can do it without having to use np.something().
-             You can use sin([1,2,3,4,5,6]) and have fun immediately!''')
-
-        except NameError:
-
-            bot.sendMessage(chat_id=chat_id,text='Error evaluating your command.')
-            bot.sendMessage(chat_id=chat_id,
-            text='''Your request raised NameError.
-            My creators programmed me to be strong against 'clever' people.
-            Be nice with me!
-            ''')
-
-
-        return 'Ended',[]
-
-    @staticmethod
-    def get_log(bot,chat_id,args,phase,cache):
-
-        if args == "" :
-
-            with open (os.path.dirname(os.path.realpath(__file__))+'/logs/Talos_bot.log', "r") as log_file:
-                data=log_file.read()
-                last_lines = string.split(data, '\n')[-4:-1]
-                #last_lines = string.join(last_lines,'\n')
-
-                if len(last_lines) == 1:
-                    bot.sendMessage(chat_id=chat_id,text=last_lines[0])
-                else:
-                    for line in last_lines:
-                        bot.sendMessage(chat_id=chat_id,text=line)
-
-            return 'Ended',[]
-
-        else :
-
-            try:
-                number_of_lines=int(args)+1
-                with open (os.path.dirname(os.path.realpath(__file__))+'/logs/Talos_bot.log', "r") as log_file:
-                    data=log_file.read()
-                    last_lines = string.split(data, '\n')[-number_of_lines:-1]
-                    #last_lines = string.join(last_lines,'\n')
-
-                    if len(last_lines) == 1:
-                        bot.sendMessage(chat_id=chat_id,text=last_lines[0])
-                    else:
-                        for line in last_lines:
-                            bot.sendMessage(chat_id=chat_id,text=line)
-
-                    return 'Ended',[]
-
-            except ValueError:
-
-                bot.sendMessage(chat_id=chat_id,text='Please, provide an integer number')
-                return 'Ended',[]
-
-
-    @staticmethod
-    def get_cluster_status(bot,chat_id,args,phase,cache):
-
-        get_simulations = subprocess.Popen(['ssh', 'cluster','ls /home/users/dreg/pablogal/RMHD/datafiles | wc -l'],
-                             stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-        n_simulations, err = get_simulations.communicate()
-
-        get_schedule = subprocess.Popen(['ssh', 'cluster','cat  /home/users/dreg/pablogal/RMHD/simulation_schedule_list.txt | tail -5'],
-                             stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-
-        schedule, err = get_schedule.communicate()
-
-        bot.sendMessage(chat_id=chat_id,text='There are '+str(n_simulations)+' simulation bundles in the cluster')
-
-        bot.sendMessage(chat_id=chat_id,text='Last 3 simulations:')
-
-        clean_schedule= filter(None,schedule.split('\n'))
-
-        for line in clean_schedule:
-
-            bot.sendMessage(chat_id=chat_id,text=line.replace('       ','')) # replace is for propper formating of te
-             #  lines
-
-	get_qstat = subprocess.Popen(['ssh', 'cluster','qstat | tail -n +3'],
-                             stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-
-	qstat, err = get_qstat.communicate()
-
-	clean_qstat= qstat.split('\n')
-	
-	for line in clean_qstat:
-		if line:	
-			bot.sendMessage(chat_id=chat_id,text=line) # replace is for propper formating of the lines
-
-        return 'Ended',[]
-
-
-    @staticmethod
-    def run_sim(bot,chat_id,args,phase,cache):
-
-        initiate_sim =subprocess.Popen('python /home/pablogal/Code/HADES-master/HADES.py '
-                                       '/home/pablogal/Code/HADES-master/data.dat -quiet  '
-                                       '--keys=YOSUKE_KEYS -images ',
-                             stdout=subprocess.PIPE,stderr=subprocess.PIPE,shell=True)
-
-        simulations, err = initiate_sim.communicate()
-
-
-        if err == "":
-
-            image1 = open('/home/pablogal/Code/HADES-master/results/Polarization_map.png', 'rb')
-            image2 = open('/home/pablogal/Code/HADES-master/results/Polarization_contours.png', 'rb')
-
-            bot.sendPhoto(chat_id=chat_id,photo=image1)
-            bot.sendPhoto(chat_id=chat_id,photo=image2)
-
-        else:
-
-            bot.sendMessage(chat_id=chat_id,text='Error: '+err)
-
-        return 'Ended',[]
 
 
 

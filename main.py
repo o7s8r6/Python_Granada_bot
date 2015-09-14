@@ -72,7 +72,7 @@ LAST_UPDATE_ID = None
 def main():
 
 
-    PythonGranadaBot = bot_library.MasterBot()
+    PythonGranadaBot = bot_library.MasterBot('126412682:AAHSy68r0unK27CDqkA8XlTe_fpRsYrDquU')
 
     while True:
         logger.debug('Awaiting for new imput')

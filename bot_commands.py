@@ -19,10 +19,10 @@ class BotCommands(object):
                               '/log': self.get_log,
                               '/cluster': self.get_cluster_status,
                               '/sim': self.run_sim,
-                              '/test': self.test,
+                              '/Sendq': self.SendQuestionary,
                               '/questionary':self.questionary,
                               '/addQuestion':self.UpdateQuestionary,
-                              '/addMe':self.AddQuestionaryUser
+                              '/addme':self.AddQuestionaryUser
 
                 }
     @staticmethod
@@ -238,7 +238,7 @@ class BotCommands(object):
 
 
     @staticmethod
-    def test(bot,chat_id,args,phase,cache,conversation_list):
+    def SendQuestionary(bot,chat_id,args,phase,cache,conversation_list):
 
         with open("./interactions/questionary_users.txt",'r') as questionfile:
 
@@ -294,12 +294,6 @@ class BotCommands(object):
                 bot.sendMessage(chat_id=chat_id, text="Set possible answer to: "+last_possible_answer)
                 bot.sendMessage(chat_id=chat_id, text="Questionary correctly setted")
                 return 'Ended',[]
-
-
-
-
-
-
 
 
     @staticmethod

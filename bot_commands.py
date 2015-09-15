@@ -326,7 +326,7 @@ class BotCommands(object):
 
             custom_keyboard = [options]
             reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard,resize_keyboard=True,one_time_keyboard=True)
-            bot.sendMessage(chat_id=chat_id, text="Which option do you chose?.", reply_markup=reply_markup)
+            bot.sendMessage(chat_id=chat_id, text=question, reply_markup=reply_markup)
 
             return 'Next_phase',[]
 
@@ -397,6 +397,7 @@ class BotCommands(object):
         ax=pl.gca()
         [i.set_linewidth(2) for i in ax.spines.itervalues()]
         pl.savefig('./interactions/stats.png')
+        pl.close()
         image1 = open('./interactions/stats.png', 'rb')
         bot.sendPhoto(chat_id=chat_id,photo=image1)
 

@@ -325,7 +325,7 @@ class BotCommands(object):
         if phase == 0: # This is when the command is only /questionary : The first time we visit this
 
             custom_keyboard = [options]
-            reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard,resize_keyboard=True,one_time_keyboard=True)
+            reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard,one_time_keyboard=True)
             bot.sendMessage(chat_id=chat_id, text=question, reply_markup=reply_markup)
 
             return 'Next_phase',[]

@@ -1,4 +1,5 @@
 __author__ = 'pablogsal'
+# -*- coding: utf-8 -*-
 
 
 import telegram

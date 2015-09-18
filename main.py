@@ -1,4 +1,5 @@
-__author__ = 'Usuario'
+__author__ = 'pablogsal'
+# -*- coding: utf-8 -*-
 
 #!/usr/bin/env python
 #

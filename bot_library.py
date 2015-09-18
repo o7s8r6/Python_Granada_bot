@@ -63,8 +63,18 @@ class MasterBot(object):
         :return: Nothing
         """
 
-        #Get number of new updates
-        num_updates = len(self.bot.getUpdates(offset=self.last_update_ID))
+        #Get number of new updates -> This can crash because of reasons. List of possible crashes:
+        #
+        # Telegram Error
+        # No Json possible to decode
+
+        try:
+            num_updates = len(self.bot.getUpdates(offset=self.last_update_ID))
+        except Exception as exception:
+            self.logger.critical('Exception when catching messages: '+str(exception))
+            time.sleep(60*5) # Sleep 5 minutes.
+            return # Exit the echo function
+
 
         #If we have updates we do stuff
         if num_updates > 0:

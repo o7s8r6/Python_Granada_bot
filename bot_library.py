@@ -207,7 +207,7 @@ class ActiveConversation(bot_commands.BotCommands):
         #Set error counter
         self.errorcounter = 0
 
-        #Classify the creation command. ¿Do we need the chat engine or we know the message command?
+        #Classify the creation command. Do we need the chat engine or we know the message command?
 
         if self.commandsQ(raw_message):
 

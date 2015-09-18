@@ -246,7 +246,7 @@ class ActiveConversation(bot_commands.BotCommands):
 
         """
 
-        self.logger.info('Received: '+raw_message+' from '+str(self.chat_ID)+'.')
+        self.logger.info('Received: '+raw_message+' from '+str(self.chatID)+'.')
 
         # Al these things can fail if Telegram not available. So we need to catch these exceptions in a try, except:
 
@@ -264,7 +264,7 @@ class ActiveConversation(bot_commands.BotCommands):
                 if cleverbot_answer == "":
                     cleverbot_answer = "I am sleeping now. Try it later or use a command from /start"
 
-                bot.sendMessage(chat_id=self.chat_ID,text=cleverbot_answer)
+                bot.sendMessage(chat_id=self.chatID,text=cleverbot_answer)
 
                 # Marc conversation as ended.
                 self.active = False
@@ -282,7 +282,7 @@ class ActiveConversation(bot_commands.BotCommands):
 
                 # Execute the command and recieve the status and the cache
 
-                talk_status, self.cache = self.function(bot,self.chat_ID,self.args,self.conversation_phase,self.cache
+                talk_status, self.cache = self.function(bot,self.chatID,self.args,self.conversation_phase,self.cache
                                                         ,conversation_list)
 
                 self.logger.info('Talk status code recieved: '+talk_status+'.')

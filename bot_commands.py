@@ -13,6 +13,8 @@ import matplotlib
 matplotlib.use('Agg') #Matplotlib without X: To run in text server.
 import numpy as np
 import pylab as pl
+import os
+
 
 class BotCommands(object):
     """

@@ -60,7 +60,7 @@ class MasterBot(object):
 
         At the end of each update group, we wait for all threads to end and repeat.
 
-        :return: Nothing
+        :return: None
         """
 
         #Get number of new updates -> This can crash because of reasons. List of possible crashes:
@@ -156,7 +156,7 @@ class MasterBot(object):
                     self.logger.info('The message is part of an old conversation')
                     need_for_new_conversation = False
                     self.logger.info('Updating the status of the conversation.')
-                    conversation.ManageUpdate(bot=self.bot,chat_ID=chat_id, raw_message=message,
+                    conversation.ManageUpdate(bot=self.bot, raw_message=message,
                                               chat_engine=self.chat_engine,conversation_list=self.active_conversations)
                     break
 
@@ -166,7 +166,7 @@ class MasterBot(object):
                 self.active_conversations.append(  new_conversation  )
                 self.logger.info('There are '+str(len(self.active_conversations))+ ' active conversations')
                 self.logger.info('Updating the status of the conversation.')
-                new_conversation.ManageUpdate(bot=self.bot,chat_ID=chat_id, raw_message=message,
+                new_conversation.ManageUpdate(bot=self.bot, raw_message=message,
                                               chat_engine=self.chat_engine,conversation_list=self.active_conversations)
 
         else: # If is not a text message
@@ -185,7 +185,7 @@ class ActiveConversation(bot_commands.BotCommands):
     """
     This class represents each active conversation. To initialize the class you must provide:
 
-        -The ChatId representing the userID of the message -> String
+        -The ChatId representing the userID of the message -> Integer
         -The rawmessage to process -> The text message in raw format to process -> String
     """
     def __init__(self,chatID,raw_message):
@@ -205,6 +205,9 @@ class ActiveConversation(bot_commands.BotCommands):
         self.logger = logging.getLogger(self.uniqueID)
         #Set error counter
         self.errorcounter = 0
+
+        #Classify the creation command. ¿Do we need the chat engine or we know the message command?
+
         if self.commandsQ(raw_message):
 
             self.function = self.AssignCommand(raw_message)
@@ -220,35 +223,70 @@ class ActiveConversation(bot_commands.BotCommands):
 
         self.cache =[]
 
-    def ManageUpdate(self,bot,chat_ID,raw_message,chat_engine,conversation_list):
+    def ManageUpdate(self,bot,raw_message,chat_engine,conversation_list):
+        """
+        This method manages each conversation update depending of the conversation nature.
 
+        Usually this is always called from MasterBot, but can be also called from other parts of the code,
+        for example from the bot functions in bot_commands. This last case is very usefull for example
+        when you want to send a message to a lot of people using another comand like "/sendq".
 
-        self.logger.info('Received: '+raw_message+' from '+str(chat_ID)+'.')
+        :param bot: An instance of the Telegram bot. (Object of Telegram.Bot)
+        :param raw_message: The raw message of the recieved update. (String)
+        :param chat_engine: The conversational engine. (Object of class CleverBot)
+        :param conversation_list: The list of active conversations from the class MasterBot (for example). (List of
+        Active Conversation objects)
+        :return: None
+
+        Exaple of usage from process_update method of class Masterbot:
+
+        :>:>:> new_conversation.ManageUpdate(bot=self.bot,raw_message=message,
+               chat_engine=self.chat_engine,conversation_list=self.active_conversations)
+
+        """
+
+        self.logger.info('Received: '+raw_message+' from '+str(self.chat_ID)+'.')
+
+        # Al these things can fail if Telegram not available. So we need to catch these exceptions in a try, except:
+
         try:
+
+            #If the conversation is classified at chat we use the chat engine
+
             if self.function_type == 'ChatEngine':
                 self.args = raw_message
                 cleverbot_answer=chat_engine.ask(self.args)
-
-
                 self.logger.info('Answering: '+cleverbot_answer+'.')
 
+                # Sometimes the chat_engine gives empty strings. We cannot send that to the user because it will raise
+                # a Telegram Error, so we say that we are sleeping.
                 if cleverbot_answer == "":
                     cleverbot_answer = "I am sleeping now. Try it later or use a command from /start"
 
-                bot.sendMessage(chat_id=chat_ID,text=cleverbot_answer)
+                bot.sendMessage(chat_id=self.chat_ID,text=cleverbot_answer)
+
+                # Marc conversation as ended.
                 self.active = False
 
+            # If the conversation is classified as command, we execute the command (that is saved in self.function).
+
             if self.function_type == 'BotCommand':
+
+                # First, separate the command from the args if needed.
 
                 if '/' in raw_message:
                     self.args = string.join(raw_message.split(' ')[1:],' ')
                 else:
                     self.args = raw_message
 
-                talk_status, self.cache = self.function(bot,chat_ID,self.args,self.conversation_phase,self.cache
+                # Execute the command and recieve the status and the cache
+
+                talk_status, self.cache = self.function(bot,self.chat_ID,self.args,self.conversation_phase,self.cache
                                                         ,conversation_list)
 
                 self.logger.info('Talk status code recieved: '+talk_status+'.')
+
+                # Update the phase with the new information.
 
                 if talk_status == 'Next_phase':
                     is_the_conversation_ended = False
@@ -260,18 +298,23 @@ class ActiveConversation(bot_commands.BotCommands):
                 else :
                     is_the_conversation_ended = True
 
+                #Marc the conversation as ended if needed
 
                 if is_the_conversation_ended :
 
                     self.active = False
 
         except telegram.TelegramError:
+
+                # If we catch a expection, we try 5 times more after sleep 4 seconds. If failed, delete the
+                # conversation.
+
                 self.errorcounter += 1
 
                 if self.errorcounter < 5:
                     self.logger.info('Telegram Error. Going to sleep 4 seconds.')
                     time.sleep(4)
-                    self.ManageUpdate(bot,chat_ID,raw_message,chat_engine,conversation_list)
+                    self.ManageUpdate(bot,raw_message,chat_engine,conversation_list)
                 else:
 
                     self.active = False
@@ -280,14 +323,25 @@ class ActiveConversation(bot_commands.BotCommands):
 
 
     def commandsQ(self,raw_message):
+        """
+        Utility function to know if a message from the user is in the message list.
+        :param raw_message: The raw message of the user (String).
+        :return: Boolean indicating if we know the message (Boolean).
+        """
 
         command = raw_message.split(' ')[0]
-        if command in self.commands_dict: # Si reconocemos el mensaje
+        if command in self.commands_dict: # If we recognise the message
             return True
-        else:  # Si no reconocemos el mensaje
+        else:  #  If we not recognise the message
             return False
 
     def AssignCommand(self,raw_message):
+        """
+        Utility function to assign command given the user message
+
+        :param raw_message: The raw message of the user (String).
+        :return: Function from the bot_commands collection. (Callable).
+        """
 
         command = raw_message.split(' ')[0] # Get the /command part of the message
 

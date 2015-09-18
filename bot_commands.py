@@ -5,16 +5,92 @@ import telegram
 import tools
 import subprocess
 import mailer,smtplib
-import os
 import string
 import bot_library
 from numpy import *
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use('Agg') #Matplotlib without X: To run in text server.
 import numpy as np
 import pylab as pl
 
 class BotCommands(object):
+    """
+    This class represent a collection of commands that the bot can execute. Basically, each command is a method of
+    the class that has the same I/O structure. To make a new function you must follow these steps:
+
+        1) Create a function that recieves as Input parameters this list:
+                -:bot: A object of the class TelegramBot that represents the TelegramBot API (To send messages to the
+                       users using the telegram API, basically. (Object of class Telegram.Bot)
+                -:chat_id: The chat id of the user. (Integer).
+                -:args: A string representing the arguments of the command executed by the user. The structure of the
+                command is: /command args , where "args" is everything that is after a space after /command".
+                Notice that if the message of the user is not in a command structure, then "args" is ALL the message.
+                This situation can occur when there is a multi-phase conversation and the user no longer have to
+                explicit the command (for example in phase 2 or 3 of a conversation, the user do not need to write
+                /command each time because we know that we are in a multi-phase conversation). (String)
+                -:phase: A Integer representing the phase of the conversation. Starts at 0. (Integer).
+                -:cache: Whatever we return in the :cache: argument the last time we update our conversation. The use is
+                very simple: If we need to record something from the last time we update the conversation (in a multi-p
+                hase conversation) we return the cache and the next time we will receive this thing in the next
+                update of the conversation. ( List of objects of unkwown nature).
+                -:conversation_list: The list of active conversations from the class MasterBot (for example). (List of
+                Active Conversation objects).
+
+            and returns this Output parameters:
+
+                -:Phase: One String of the following:
+
+                        "Ended"
+                        "Next_phase"
+                        "Same_phase"
+
+                -:Cache: Whatever you want to receive in the cache Input argument in the next phase.
+
+                Example definition:
+
+                >>def start(bot,chat_id,args,phase,cache,conversation_list):
+
+                    if phase == 0:
+                        bla bla bla
+                        return 'Next phase',["Quiero recuperar esta bonita string"]
+                    else:
+                        # En esta fase habremos recivido en cache la lista:
+                                    cache=["Quiero recuperar esta bonita string"]
+                        bli bli bli
+                        return 'Ended',[]
+
+        2) Add the function to this class as a method using the decorator @staticmethod (to avoid receieving self as an
+           argument).
+
+        3) Add to the get_commands_dict method of this class (the first one after this texts in the source code) a entry
+           to the return dict in the following form:
+
+                '/yourcoolcommand':self.your_cool_function_name_as_defined_in_the_source_code.
+
+            Do not forget to put a comma in what was the last function before you put yours ( captain obvious
+            speaking here ).
+
+        4) Profit.
+
+
+        Here are some method of the bot argument that you may need:
+
+            bot.sendMessage
+            bot.sendAudio
+            bot.sendLocation
+            bot.sendPhoto
+            bot.sendSticker
+            bot.sendChatAction
+
+            and from the telegram module:
+
+            telegram.ReplyKeyboardMarkup
+
+        To know how to use these commands: https://github.com/leandrotoledo/python-telegram-bot
+
+
+    """
+
 
     def get_commands_dict(self):
 
@@ -117,17 +193,8 @@ class BotCommands(object):
     def python_eval(bot,chat_id,args,phase,cache,conversation_list):
 
         try:
-
-            if "." or "_" in args:
-                bot.sendMessage(chat_id=chat_id,text='Error evaluating your command.')
-                bot.sendMessage(chat_id=chat_id,
-                text='''Your request raised NameError.
-                My creators programmed me to be strong against 'clever' people.
-                Be nice with me!
-                ''')
-            else:
-                evaluation=tools.p_Eval_(args)
-                bot.sendMessage(chat_id=chat_id,text=evaluation)
+            evaluation=tools.p_Eval_(args)
+            bot.sendMessage(chat_id=chat_id,text=evaluation)
 
         except SyntaxError:
             bot.sendMessage(chat_id=chat_id,text='Error evaluating your command.')
@@ -264,7 +331,7 @@ class BotCommands(object):
             if user != "":
                 new_conversation =bot_library.ActiveConversation(int(user),'/questionary')
                 conversation_list.append(new_conversation)
-                new_conversation.ManageUpdate(bot,chat_ID=int(user),raw_message=args,chat_engine=None,
+                new_conversation.ManageUpdate(bot,raw_message=args,chat_engine=None,
                                               conversation_list=conversation_list)
 
         return 'Ended',[]

@@ -5,12 +5,11 @@ __author__ = 'Usuario'
 # Simple Bot to reply Telegram messages
 
 
-import logging
-import telegram
+
 import time
 import logging, argparse
 import bot_library,tools
-import os,sys
+import os
 
 
 #  _____      _ _   _       _ _          _   _
@@ -30,6 +29,8 @@ parser.add_argument('-v', dest='verbose_flag', action='store_const',
                    help='Prints more info (default: False)')
 
 args = parser.parse_args()
+######## END OF PARSER CREATION #########
+
 
 # Create logger-------------------------------------------------
 
@@ -56,6 +57,9 @@ ch.setFormatter(formatter)
 logger.addHandler(fh)
 logger.addHandler(ch)
 ######## END OF LOGGER CREATION #########
+
+
+
 
 # Variable to get the las update
 LAST_UPDATE_ID = None

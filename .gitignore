@@ -68,3 +68,6 @@ target/
 
 #Logs
 /logs/*
+
+#Pyc files
+*.pyc

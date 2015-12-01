@@ -115,6 +115,7 @@ class BotCommands(object):
 
         exit = """Available commands:
             - /start -> muestra este mismo texto.
+            - /addme -> Adjunta al usuario al grupo dinamico.
             - /peval -> Evalua codigo python.
             - /log -> Devuelve las n ultimas lineas del log. E.g. /log 5..
             - /talk -> Permite enviar una propuesta de charla a Python Granada."""
